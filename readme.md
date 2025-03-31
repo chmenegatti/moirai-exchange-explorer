@@ -102,6 +102,21 @@ graph LR
   bindingKey2 -->|error| errorRoutingKey2
 
 ```
+
+## Erro provável
+
+Caso ocorra o erro abaixo, é necessário rodar o comando mais abaixo para funcionar.
+
+```bash
+Stderr: [@zenuml/core] Store is a function and is not initiated in 1 second.
+
+Stderr: [@zenuml/core] Store is a function and is not initiated in 1 second.
+```
+
+```bash
+echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
+```
+
 ## Considerações Finais
 
 Este projeto fornece uma maneira eficaz de gerenciar e visualizar configurações em um ambiente de micro-serviços. A modularidade do código permite fácil manutenção e extensibilidade, sendo uma ferramenta poderosa para desenvolvedores e administradores de sistemas.
