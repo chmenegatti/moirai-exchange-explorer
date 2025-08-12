@@ -10,6 +10,7 @@ Este projeto é uma ferramenta CLI (Command Line Interface) que interage com o E
 2. **Salvamento em Arquivos JSON**: Salva as configurações filtradas em arquivos JSON no diretório `./json`.
 3. **Leitura e Filtragem de Arquivos JSON**: Lê os arquivos JSON, filtra informações específicas baseadas na chave `Exchange`.
 4. **Geração de Diagramas de Fluxo**: Gera diagramas de fluxo usando Mermaid.js e os salva em formatos SVG e PNG.
+5. **Geração de Imagens a partir de JSON já existente**: Com a flag `-d`, é possível gerar os arquivos de imagem (SVG/PNG) do diagrama diretamente a partir de um arquivo JSON já existente na pasta `output/`.
 
 ## Estrutura do Projeto
 
@@ -65,11 +66,20 @@ node flow-cli.js -e <exchange-name> -o <nome-do-arquivo>
 
 ### Geração de Diagramas de Fluxo
 
-Para gerar diagramas de fluxo a partir dos arquivos JSON, execute:
+Para gerar diagramas de fluxo a partir dos arquivos JSON filtrados:
 
 ```bash
 node flow-cli.js -e <exchange-name> -o <nome-do-arquivo> -p <nome-do-arquivo> -s <nome-do-arquivo>
 ```
+
+### Gerar imagens do diagrama a partir de um JSON já existente
+
+Se você já possui um arquivo JSON gerado na pasta `output/`, pode criar os arquivos de imagem do diagrama diretamente com a flag `-d`:
+
+```bash
+node flow-cli.js -d resultado.json
+```
+Isso irá gerar os arquivos `.mmd`, `.svg` e `.png` do diagrama para o JSON especificado, usando o nome base do arquivo.
 
 ### Exemplos de Comando
 Apenas leitura do ETCD e salvamento em JSON:
@@ -78,10 +88,17 @@ Apenas leitura do ETCD e salvamento em JSON:
   node flow-cli.js -g
 ```
 
+
 ### Filtragem e salvamento com geração de PNG e SVG:
 
 ```bash
-  node flow-cli.js -e moirai.topic.vpn.delete -o resultado -s diagrama -p diagrama
+node flow-cli.js -e moirai.topic.vpn.delete -o resultado -s diagrama -p diagrama
+```
+
+### Gerar imagens do diagrama a partir de um JSON já existente na pasta output:
+
+```bash
+node flow-cli.js -d resultado.json
 ```
 
 ### Saídas
