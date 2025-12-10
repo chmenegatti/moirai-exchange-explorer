@@ -43,12 +43,14 @@ class MermaidFlowchartGenerator {
   /**
    * Generates the Mermaid diagram definition
    * @param {string} filename - The base filename (without extension)
+   * @param {string} direction - Flow direction: 'LR' (left-right) or 'TD' (top-down)
    * @returns {Promise<string>} Path to the generated .mmd file
    */
-  async generate(filename) {
+  async generate(filename, direction = 'LR') {
     try {
       const sanitizedFilename = sanitizeFilename(filename);
-      let diagram = 'graph TD\n';
+      const flowDirection = ['LR', 'TD'].includes(direction) ? direction : 'LR';
+      let diagram = `graph ${flowDirection}\n`;
       
       // Helper to sanitize node IDs (replace dots and special chars with underscores)
       const sanitizeNodeId = (str) => {
@@ -71,7 +73,7 @@ class MermaidFlowchartGenerator {
 
       const filePath = path.join(this.outputDir, `${sanitizedFilename}.mmd`);
       fs.writeFileSync(filePath, diagram, 'utf-8');
-      logger.info(`Mermaid diagram generated: ${filePath}`);
+      logger.info(`Mermaid diagram generated: ${filePath} (direction: ${flowDirection})`);
       
       return filePath;
     } catch (error) {
@@ -158,11 +160,12 @@ class MermaidFlowchartGenerator {
   /**
    * Generates all diagram formats (mmd, svg, png)
    * @param {string} filename - Base filename for all outputs
+   * @param {string} direction - Flow direction: 'LR' or 'TD'
    * @returns {Promise<Object>} Object containing paths to all generated files
    */
-  async generateAll(filename) {
+  async generateAll(filename, direction = 'LR') {
     try {
-      const mmdPath = await this.generate(filename);
+      const mmdPath = await this.generate(filename, direction);
       const svgPath = await this.generateSVG(filename, filename);
       const pngPath = await this.generatePNG(filename, filename);
 

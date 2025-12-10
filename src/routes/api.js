@@ -15,18 +15,18 @@ const exchangeService = new ExchangeService();
  * @route   POST /api/flowchart
  * @desc    Generate flowchart diagrams from exchange name
  * @access  Public
- * @body    { exchange: string, filename?: string }
+ * @body    { exchange: string, filename?: string, direction?: string }
  * @returns { success: boolean, data: object } or Mermaid/SVG content based on Accept header
  */
 router.post('/flowchart', validate(flowchartSchema), async (req, res, next) => {
   try {
-    const { exchange, filename } = req.validatedBody;
+    const { exchange, filename, direction } = req.validatedBody;
     const acceptHeader = req.headers.accept || '';
     const sanitizedFilename = (filename || 'flowchart').replace(/[^a-zA-Z0-9_-]/g, '_');
 
-    logger.info(`API request to generate flowchart`, { exchange, filename });
+    logger.info(`API request to generate flowchart`, { exchange, filename, direction });
 
-    const result = await flowchartService.generateFlowchart(exchange, filename);
+    const result = await flowchartService.generateFlowchart(exchange, filename, direction);
 
     // If client accepts text/vnd.mermaid, return the Mermaid code
     if (acceptHeader.includes('text/vnd.mermaid') || acceptHeader.includes('text/plain')) {

@@ -32,6 +32,23 @@
 
 ---
 
+## 📸 Screenshots
+
+<div align="center">
+
+### Interface Principal
+![Lista de Exchanges](images/img01.png)
+
+### Busca e Filtros
+![Busca em tempo real](images/img02.png)
+
+### Visualização de Fluxograma
+![Diagrama Mermaid interativo](images/img03.png)
+
+</div>
+
+---
+
 ## ✨ Features
 
 ### 🎨 Geração de Diagramas
