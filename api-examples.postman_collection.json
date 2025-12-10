@@ -1,0 +1,69 @@
+{
+  "info": {
+    "name": "ETCD Flowchart API",
+    "description": "API para geração de diagramas de fluxo a partir de configurações ETCD",
+    "version": "2.0.0"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/health",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "health"]
+        }
+      }
+    },
+    {
+      "name": "Generate Flowchart",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"exchange\": \"moirai.topic.vpn.delete\",\n  \"filename\": \"vpn-flow\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/flowchart",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "flowchart"]
+        }
+      }
+    },
+    {
+      "name": "Generate Flowchart - Minimal",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"exchange\": \"moirai.topic.vpn.delete\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/flowchart",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "flowchart"]
+        }
+      }
+    }
+  ]
+}
