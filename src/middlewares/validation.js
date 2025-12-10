@@ -24,6 +24,13 @@ const flowchartSchema = Joi.object({
     .messages({
       'string.pattern.base': 'Filename can only contain letters, numbers, underscores, and hyphens',
     }),
+  direction: Joi.string()
+    .optional()
+    .valid('LR', 'TD')
+    .default('LR')
+    .messages({
+      'any.only': 'Direction must be either LR (left-right) or TD (top-down)',
+    }),
 });
 
 /**

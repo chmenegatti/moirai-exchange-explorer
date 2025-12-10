@@ -1,0 +1,42 @@
+
+services:
+  moirai-flow-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: moirai-flow-app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"   # Backend API
+      - "9200:9200"   # Frontend
+    environment:
+      # Backend Configuration
+      - PORT=3000
+      - NODE_ENV=production
+      - ETCD_HOSTS=nemesis-etcd:2379
+      - JSON_DIR=/app/json
+      - OUTPUT_DIR=/app/output
+      - LOG_LEVEL=info
+      - LOG_FILE=/app/logs/app.log
+      
+      # Mermaid Configuration
+      - MERMAID_SCALE=10
+      - MERMAID_WIDTH=2400
+      - MERMAID_HEIGHT=1600
+    volumes:
+      - ./json:/app/json
+      - ./output:/app/output
+      - ./logs:/app/logs
+    networks:
+      nemesis-starter_nemesis:
+        ipv4_address: 172.20.0.201
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  nemesis-starter_nemesis:
+    external: true

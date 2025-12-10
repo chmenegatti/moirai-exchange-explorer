@@ -67,3 +67,697 @@
 {"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 09:06:32"}
 {"level":"info","message":"Server running in development mode on port 3000","timestamp":"2025-12-10 09:06:33"}
 {"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 09:06:33"}
+{"exchange":"moirai.topic.sdnvpn.create","filename":"sdnvpn-flow","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.sdnvpn.create","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"Searching for exchange: moirai.topic.sdnvpn.create","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"Found 16 matches for exchange: moirai.topic.sdnvpn.create","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"Results saved to: output/sdnvpn-flow.json","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"Mermaid diagram generated: output/sdnvpn-flow.mmd","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"SVG generated successfully: output/sdnvpn-flow.svg","timestamp":"2025-12-10 09:48:26"}
+{"level":"info","message":"PNG generated successfully: output/sdnvpn-flow.png","timestamp":"2025-12-10 09:48:28"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.sdnvpn.create","resultsCount":16,"timestamp":"2025-12-10 09:48:28"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 10:52:48"}
+{"level":"info","message":"Server running in development mode on port 3000","timestamp":"2025-12-10 10:52:48"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 10:52:48"}
+{"exchange":"moirai.topic.sdnvpn.create","filename":"sdnvpn-flow","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.sdnvpn.create","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"Searching for exchange: moirai.topic.sdnvpn.create","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"Found 16 matches for exchange: moirai.topic.sdnvpn.create","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"Results saved to: output/sdnvpn-flow.json","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"Mermaid diagram generated: output/sdnvpn-flow.mmd","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"SVG generated successfully: output/sdnvpn-flow.svg","timestamp":"2025-12-10 10:52:55"}
+{"level":"info","message":"PNG generated successfully: output/sdnvpn-flow.png","timestamp":"2025-12-10 10:52:57"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.sdnvpn.create","resultsCount":16,"timestamp":"2025-12-10 10:52:57"}
+{"level":"warn","message":"Route not found","method":"GET","path":"/api/exchanges","timestamp":"2025-12-10 11:00:37"}
+{"level":"warn","message":"Route not found","method":"GET","path":"/api/exchange","timestamp":"2025-12-10 11:00:41"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 11:00:44"}
+{"level":"info","message":"Server running in development mode on port 3000","timestamp":"2025-12-10 11:00:46"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 11:00:46"}
+{"level":"warn","message":"Route not found","method":"GET","path":"/api/exchange","timestamp":"2025-12-10 11:00:47"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 11:00:51"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 11:00:51"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 11:00:51"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 11:00:51"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 11:00:51"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 11:42:26"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 11:42:26"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 11:42:26"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 11:42:26"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 11:42:26"}
+{"body":{"exchange":"moirai.topic.rubrik.managed.volume.delete","filename":"moirai.topic.rubrik.managed.volume.delete"},"errors":[{"field":"filename","message":"Filename can only contain letters, numbers, underscores, and hyphens"}],"level":"warn","message":"Validation error","timestamp":"2025-12-10 11:42:39"}
+{"body":{"exchange":"moirai.topic.vpn.create","filename":"moirai.topic.vpn.create"},"errors":[{"field":"filename","message":"Filename can only contain letters, numbers, underscores, and hyphens"}],"level":"warn","message":"Validation error","timestamp":"2025-12-10 11:46:03"}
+{"body":{"exchange":"moirai.topic.sdnvpn.create","filename":"moirai.topic.sdnvpn.create"},"errors":[{"field":"filename","message":"Filename can only contain letters, numbers, underscores, and hyphens"}],"level":"warn","message":"Validation error","timestamp":"2025-12-10 11:47:50"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 11:48:37"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 11:48:37"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 11:48:37"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 11:48:37"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 11:48:37"}
+{"exchange":"moirai.topic.database.delete","filename":"moirai_topic_database_delete","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 11:48:39"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.database.delete","timestamp":"2025-12-10 11:48:39"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 11:48:39"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 11:48:39"}
+{"level":"info","message":"Searching for exchange: moirai.topic.database.delete","timestamp":"2025-12-10 11:48:39"}
+{"level":"info","message":"Found 3 matches for exchange: moirai.topic.database.delete","timestamp":"2025-12-10 11:48:39"}
+{"level":"info","message":"Results saved to: output/moirai_topic_database_delete.json","timestamp":"2025-12-10 11:48:39"}
+{"level":"info","message":"Mermaid diagram generated: output/moirai_topic_database_delete.mmd","timestamp":"2025-12-10 11:48:39"}
+{"level":"info","message":"SVG generated successfully: output/moirai_topic_database_delete.svg","timestamp":"2025-12-10 11:48:40"}
+{"level":"info","message":"PNG generated successfully: output/moirai_topic_database_delete.png","timestamp":"2025-12-10 11:48:42"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.database.delete","resultsCount":3,"timestamp":"2025-12-10 11:48:42"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 11:50:21"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 11:50:21"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 11:50:21"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 11:50:21"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 11:50:21"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 11:50:32"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 11:50:32"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 11:50:32"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 11:50:32"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 11:50:32"}
+{"exchange":"moirai.topic.database.create","filename":"moirai_topic_database_create","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 11:50:44"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.database.create","timestamp":"2025-12-10 11:50:44"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 11:50:44"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 11:50:44"}
+{"level":"info","message":"Searching for exchange: moirai.topic.database.create","timestamp":"2025-12-10 11:50:44"}
+{"level":"info","message":"Found 4 matches for exchange: moirai.topic.database.create","timestamp":"2025-12-10 11:50:44"}
+{"level":"info","message":"Results saved to: output/moirai_topic_database_create.json","timestamp":"2025-12-10 11:50:44"}
+{"level":"info","message":"Mermaid diagram generated: output/moirai_topic_database_create.mmd","timestamp":"2025-12-10 11:50:44"}
+{"level":"info","message":"SVG generated successfully: output/moirai_topic_database_create.svg","timestamp":"2025-12-10 11:50:46"}
+{"level":"info","message":"PNG generated successfully: output/moirai_topic_database_create.png","timestamp":"2025-12-10 11:50:48"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.database.create","resultsCount":4,"timestamp":"2025-12-10 11:50:48"}
+{"exchange":"moirai.topic.database.export","filename":"moirai_topic_database_export","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 11:51:07"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.database.export","timestamp":"2025-12-10 11:51:07"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 11:51:07"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 11:51:07"}
+{"level":"info","message":"Searching for exchange: moirai.topic.database.export","timestamp":"2025-12-10 11:51:07"}
+{"level":"info","message":"Found 2 matches for exchange: moirai.topic.database.export","timestamp":"2025-12-10 11:51:07"}
+{"level":"info","message":"Results saved to: output/moirai_topic_database_export.json","timestamp":"2025-12-10 11:51:07"}
+{"level":"info","message":"Mermaid diagram generated: output/moirai_topic_database_export.mmd","timestamp":"2025-12-10 11:51:07"}
+{"level":"info","message":"SVG generated successfully: output/moirai_topic_database_export.svg","timestamp":"2025-12-10 11:51:09"}
+{"level":"info","message":"PNG generated successfully: output/moirai_topic_database_export.png","timestamp":"2025-12-10 11:51:11"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.database.export","resultsCount":2,"timestamp":"2025-12-10 11:51:11"}
+{"exchange":"moirai.topic.database.static.rule","filename":"moirai_topic_database_static_rule","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 11:51:29"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.database.static.rule","timestamp":"2025-12-10 11:51:29"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 11:51:29"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 11:51:29"}
+{"level":"info","message":"Searching for exchange: moirai.topic.database.static.rule","timestamp":"2025-12-10 11:51:29"}
+{"level":"info","message":"Found 3 matches for exchange: moirai.topic.database.static.rule","timestamp":"2025-12-10 11:51:29"}
+{"level":"info","message":"Results saved to: output/moirai_topic_database_static_rule.json","timestamp":"2025-12-10 11:51:29"}
+{"level":"info","message":"Mermaid diagram generated: output/moirai_topic_database_static_rule.mmd","timestamp":"2025-12-10 11:51:29"}
+{"level":"info","message":"SVG generated successfully: output/moirai_topic_database_static_rule.svg","timestamp":"2025-12-10 11:51:31"}
+{"level":"info","message":"PNG generated successfully: output/moirai_topic_database_static_rule.png","timestamp":"2025-12-10 11:51:33"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.database.static.rule","resultsCount":3,"timestamp":"2025-12-10 11:51:33"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 11:53:05"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 11:53:05"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 11:53:05"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 11:53:05"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 11:53:05"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 11:53:08"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 11:53:08"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 11:53:08"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 11:53:08"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 11:53:08"}
+{"exchange":"moirai.topic.database.create","filename":"moirai_topic_database_create","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 11:53:18"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.database.create","timestamp":"2025-12-10 11:53:18"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 11:53:18"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 11:53:18"}
+{"level":"info","message":"Searching for exchange: moirai.topic.database.create","timestamp":"2025-12-10 11:53:18"}
+{"level":"info","message":"Found 4 matches for exchange: moirai.topic.database.create","timestamp":"2025-12-10 11:53:18"}
+{"level":"info","message":"Results saved to: output/moirai_topic_database_create.json","timestamp":"2025-12-10 11:53:18"}
+{"level":"info","message":"Mermaid diagram generated: output/moirai_topic_database_create.mmd","timestamp":"2025-12-10 11:53:18"}
+{"level":"info","message":"SVG generated successfully: output/moirai_topic_database_create.svg","timestamp":"2025-12-10 11:53:19"}
+{"level":"info","message":"PNG generated successfully: output/moirai_topic_database_create.png","timestamp":"2025-12-10 11:53:21"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.database.create","resultsCount":4,"timestamp":"2025-12-10 11:53:21"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 11:53:27"}
+{"level":"info","message":"Server running in development mode on port 3000","timestamp":"2025-12-10 11:53:28"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 11:53:28"}
+{"exchange":"moirai.topic.harddisk.create","filename":"moirai_topic_harddisk_create","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 11:53:32"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.harddisk.create","timestamp":"2025-12-10 11:53:32"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 11:53:32"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 11:53:32"}
+{"level":"info","message":"Searching for exchange: moirai.topic.harddisk.create","timestamp":"2025-12-10 11:53:32"}
+{"level":"info","message":"Found 5 matches for exchange: moirai.topic.harddisk.create","timestamp":"2025-12-10 11:53:32"}
+{"level":"info","message":"Results saved to: output/moirai_topic_harddisk_create.json","timestamp":"2025-12-10 11:53:32"}
+{"level":"info","message":"Mermaid diagram generated: output/moirai_topic_harddisk_create.mmd","timestamp":"2025-12-10 11:53:32"}
+{"level":"info","message":"SVG generated successfully: output/moirai_topic_harddisk_create.svg","timestamp":"2025-12-10 11:53:34"}
+{"level":"info","message":"PNG generated successfully: output/moirai_topic_harddisk_create.png","timestamp":"2025-12-10 11:53:36"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.harddisk.create","resultsCount":5,"timestamp":"2025-12-10 11:53:36"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 11:57:35"}
+{"level":"info","message":"Server running in development mode on port 3000","timestamp":"2025-12-10 11:57:36"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 11:57:36"}
+{"exchange":"moirai.topic.network.delete","filename":"moirai_topic_network_delete","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 11:57:43"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.network.delete","timestamp":"2025-12-10 11:57:43"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 11:57:43"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 11:57:43"}
+{"level":"info","message":"Searching for exchange: moirai.topic.network.delete","timestamp":"2025-12-10 11:57:43"}
+{"level":"info","message":"Found 5 matches for exchange: moirai.topic.network.delete","timestamp":"2025-12-10 11:57:43"}
+{"level":"info","message":"Results saved to: output/moirai_topic_network_delete.json","timestamp":"2025-12-10 11:57:43"}
+{"level":"info","message":"Mermaid diagram generated: output/moirai_topic_network_delete.mmd","timestamp":"2025-12-10 11:57:43"}
+{"level":"info","message":"SVG generated successfully: output/moirai_topic_network_delete.svg","timestamp":"2025-12-10 11:57:45"}
+{"level":"info","message":"PNG generated successfully: output/moirai_topic_network_delete.png","timestamp":"2025-12-10 11:57:47"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.network.delete","resultsCount":5,"timestamp":"2025-12-10 11:57:47"}
+{"exchange":"moirai.topic.loadbalance.edit","filename":"moirai_topic_loadbalance_edit","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 11:59:37"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.loadbalance.edit","timestamp":"2025-12-10 11:59:37"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 11:59:37"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 11:59:37"}
+{"level":"info","message":"Searching for exchange: moirai.topic.loadbalance.edit","timestamp":"2025-12-10 11:59:37"}
+{"level":"info","message":"Found 17 matches for exchange: moirai.topic.loadbalance.edit","timestamp":"2025-12-10 11:59:37"}
+{"level":"info","message":"Results saved to: output/moirai_topic_loadbalance_edit.json","timestamp":"2025-12-10 11:59:37"}
+{"level":"info","message":"Mermaid diagram generated: output/moirai_topic_loadbalance_edit.mmd","timestamp":"2025-12-10 11:59:37"}
+{"level":"info","message":"SVG generated successfully: output/moirai_topic_loadbalance_edit.svg","timestamp":"2025-12-10 11:59:39"}
+{"level":"info","message":"PNG generated successfully: output/moirai_topic_loadbalance_edit.png","timestamp":"2025-12-10 11:59:43"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.loadbalance.edit","resultsCount":17,"timestamp":"2025-12-10 11:59:43"}
+{"exchange":"moirai.topic.database.share","filename":"moirai_topic_database_share","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 12:00:44"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.database.share","timestamp":"2025-12-10 12:00:44"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 12:00:44"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 12:00:44"}
+{"level":"info","message":"Searching for exchange: moirai.topic.database.share","timestamp":"2025-12-10 12:00:44"}
+{"level":"info","message":"Found 2 matches for exchange: moirai.topic.database.share","timestamp":"2025-12-10 12:00:44"}
+{"level":"info","message":"Results saved to: output/moirai_topic_database_share.json","timestamp":"2025-12-10 12:00:44"}
+{"level":"info","message":"Mermaid diagram generated: output/moirai_topic_database_share.mmd","timestamp":"2025-12-10 12:00:44"}
+{"level":"info","message":"SVG generated successfully: output/moirai_topic_database_share.svg","timestamp":"2025-12-10 12:00:45"}
+{"level":"info","message":"PNG generated successfully: output/moirai_topic_database_share.png","timestamp":"2025-12-10 12:00:47"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.database.share","resultsCount":2,"timestamp":"2025-12-10 12:00:47"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 12:01:56"}
+{"level":"info","message":"Server running in development mode on port 3000","timestamp":"2025-12-10 12:01:57"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 12:01:57"}
+{"exchange":"moirai.topic.virtualmachine.delete","filename":"moirai_topic_virtualmachine_delete","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 12:02:36"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.virtualmachine.delete","timestamp":"2025-12-10 12:02:36"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 12:02:36"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 12:02:36"}
+{"level":"info","message":"Searching for exchange: moirai.topic.virtualmachine.delete","timestamp":"2025-12-10 12:02:36"}
+{"level":"info","message":"Found 8 matches for exchange: moirai.topic.virtualmachine.delete","timestamp":"2025-12-10 12:02:36"}
+{"level":"info","message":"Results saved to: output/moirai_topic_virtualmachine_delete.json","timestamp":"2025-12-10 12:02:36"}
+{"level":"info","message":"Mermaid diagram generated: output/moirai_topic_virtualmachine_delete.mmd","timestamp":"2025-12-10 12:02:36"}
+{"level":"info","message":"SVG generated successfully: output/moirai_topic_virtualmachine_delete.svg","timestamp":"2025-12-10 12:02:37"}
+{"level":"info","message":"PNG generated successfully: output/moirai_topic_virtualmachine_delete.png","timestamp":"2025-12-10 12:02:41"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.virtualmachine.delete","resultsCount":8,"timestamp":"2025-12-10 12:02:41"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 13:46:27"}
+{"level":"info","message":"Server running in production mode on port 3000","timestamp":"2025-12-10 16:52:27"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 16:52:27"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:52:32 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:52:32"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:53:02 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:53:02"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 16:53:07"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 16:53:07"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 16:53:07"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 16:53:07"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 16:53:07"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:16:53:07 +0000] \"GET /api/exchanges HTTP/1.1\" 304 - \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 16:53:07"}
+{"exchange":"moirai.topic.nat.delete","filename":"moirai_topic_nat_delete","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.nat.delete","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"Searching for exchange: moirai.topic.nat.delete","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"Found 12 matches for exchange: moirai.topic.nat.delete","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_nat_delete.json","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_nat_delete.mmd","timestamp":"2025-12-10 16:53:27"}
+{"error":"Command failed: mmdc -i \"/app/output/moirai_topic_nat_delete.mmd\" -o \"/app/output/moirai_topic_nat_delete.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","level":"error","message":"Error generating SVG","timestamp":"2025-12-10 16:53:27"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_nat_delete.mmd\" -o \"/app/output/moirai_topic_nat_delete.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","level":"error","message":"Error generating all diagram formats","timestamp":"2025-12-10 16:53:27"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_nat_delete.mmd\" -o \"/app/output/moirai_topic_nat_delete.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","exchangeName":"moirai.topic.nat.delete","level":"error","message":"Error generating flowchart","timestamp":"2025-12-10 16:53:27"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_nat_delete.mmd\" -o \"/app/output/moirai_topic_nat_delete.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","level":"error","message":"Error occurred","method":"POST","path":"/api/flowchart","stack":"Error: Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_nat_delete.mmd\" -o \"/app/output/moirai_topic_nat_delete.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n\n    at MermaidFlowchartGenerator._generateImage (/app/src/generators/MermaidFlowchartGenerator.js:131:13)\n    at async MermaidFlowchartGenerator.generateAll (/app/src/generators/MermaidFlowchartGenerator.js:163:23)\n    at async FlowchartService.generateFlowchart (/app/src/services/FlowchartService.js:64:30)\n    at async /app/src/routes/api.js:29:20","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:16:53:27 +0000] \"POST /api/flowchart HTTP/1.1\" 500 221 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:53:32 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:53:32"}
+{"exchange":"moirai.topic.exportfiles.create","filename":"moirai_topic_exportfiles_create","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.exportfiles.create","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"Searching for exchange: moirai.topic.exportfiles.create","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"Found 2 matches for exchange: moirai.topic.exportfiles.create","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_exportfiles_create.json","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_exportfiles_create.mmd","timestamp":"2025-12-10 16:53:40"}
+{"error":"Command failed: mmdc -i \"/app/output/moirai_topic_exportfiles_create.mmd\" -o \"/app/output/moirai_topic_exportfiles_create.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","level":"error","message":"Error generating SVG","timestamp":"2025-12-10 16:53:40"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_exportfiles_create.mmd\" -o \"/app/output/moirai_topic_exportfiles_create.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","level":"error","message":"Error generating all diagram formats","timestamp":"2025-12-10 16:53:40"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_exportfiles_create.mmd\" -o \"/app/output/moirai_topic_exportfiles_create.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","exchangeName":"moirai.topic.exportfiles.create","level":"error","message":"Error generating flowchart","timestamp":"2025-12-10 16:53:40"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_exportfiles_create.mmd\" -o \"/app/output/moirai_topic_exportfiles_create.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","level":"error","message":"Error occurred","method":"POST","path":"/api/flowchart","stack":"Error: Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_exportfiles_create.mmd\" -o \"/app/output/moirai_topic_exportfiles_create.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n\n    at MermaidFlowchartGenerator._generateImage (/app/src/generators/MermaidFlowchartGenerator.js:131:13)\n    at async MermaidFlowchartGenerator.generateAll (/app/src/generators/MermaidFlowchartGenerator.js:163:23)\n    at async FlowchartService.generateFlowchart (/app/src/services/FlowchartService.js:64:30)\n    at async /app/src/routes/api.js:29:20","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:16:53:40 +0000] \"POST /api/flowchart HTTP/1.1\" 500 237 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:54:02 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:54:02"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:54:32 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:54:32"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:55:02 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:55:02"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:55:32 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:55:32"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:56:02 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:56:02"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:56:32 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:56:32"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:57:02 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:57:02"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:57:32 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:57:32"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:58:03 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:58:03"}
+{"level":"info","message":"Server running in production mode on port 3000","timestamp":"2025-12-10 17:00:37"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 17:00:37"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:00:42 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:00:42"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:01:12 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:01:12"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 17:01:15"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 17:01:15"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 17:01:15"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 17:01:15"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 17:01:15"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:17:01:15 +0000] \"GET /api/exchanges HTTP/1.1\" 304 - \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 17:01:15"}
+{"exchange":"moirai.topic.harddisk.delete","filename":"moirai_topic_harddisk_delete","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 17:01:18"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.harddisk.delete","timestamp":"2025-12-10 17:01:18"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 17:01:18"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 17:01:18"}
+{"level":"info","message":"Searching for exchange: moirai.topic.harddisk.delete","timestamp":"2025-12-10 17:01:18"}
+{"level":"info","message":"Found 2 matches for exchange: moirai.topic.harddisk.delete","timestamp":"2025-12-10 17:01:18"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_harddisk_delete.json","timestamp":"2025-12-10 17:01:18"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_harddisk_delete.mmd","timestamp":"2025-12-10 17:01:18"}
+{"error":"Command failed: mmdc -i \"/app/output/moirai_topic_harddisk_delete.mmd\" -o \"/app/output/moirai_topic_harddisk_delete.svg\" --width 2400 --height 1600\n\nError: Failed to launch the browser process!\n[64:64:1210/170118.489508:ERROR:content/browser/zygote_host/zygote_host_impl_linux.cc:101] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.\n\n\nTROUBLESHOOTING: https://pptr.dev/troubleshooting\n\n    at Interface.onClose (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)\n    at Interface.emit (node:events:531:35)\n    at Interface.close (node:internal/readline/interface:530:10)\n    at Socket.onend (node:internal/readline/interface:260:10)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n\n","level":"error","message":"Error generating SVG","timestamp":"2025-12-10 17:01:18"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_harddisk_delete.mmd\" -o \"/app/output/moirai_topic_harddisk_delete.svg\" --width 2400 --height 1600\n\nError: Failed to launch the browser process!\n[64:64:1210/170118.489508:ERROR:content/browser/zygote_host/zygote_host_impl_linux.cc:101] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.\n\n\nTROUBLESHOOTING: https://pptr.dev/troubleshooting\n\n    at Interface.onClose (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)\n    at Interface.emit (node:events:531:35)\n    at Interface.close (node:internal/readline/interface:530:10)\n    at Socket.onend (node:internal/readline/interface:260:10)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n\n","level":"error","message":"Error generating all diagram formats","timestamp":"2025-12-10 17:01:18"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_harddisk_delete.mmd\" -o \"/app/output/moirai_topic_harddisk_delete.svg\" --width 2400 --height 1600\n\nError: Failed to launch the browser process!\n[64:64:1210/170118.489508:ERROR:content/browser/zygote_host/zygote_host_impl_linux.cc:101] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.\n\n\nTROUBLESHOOTING: https://pptr.dev/troubleshooting\n\n    at Interface.onClose (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)\n    at Interface.emit (node:events:531:35)\n    at Interface.close (node:internal/readline/interface:530:10)\n    at Socket.onend (node:internal/readline/interface:260:10)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n\n","exchangeName":"moirai.topic.harddisk.delete","level":"error","message":"Error generating flowchart","timestamp":"2025-12-10 17:01:18"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_harddisk_delete.mmd\" -o \"/app/output/moirai_topic_harddisk_delete.svg\" --width 2400 --height 1600\n\nError: Failed to launch the browser process!\n[64:64:1210/170118.489508:ERROR:content/browser/zygote_host/zygote_host_impl_linux.cc:101] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.\n\n\nTROUBLESHOOTING: https://pptr.dev/troubleshooting\n\n    at Interface.onClose (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)\n    at Interface.emit (node:events:531:35)\n    at Interface.close (node:internal/readline/interface:530:10)\n    at Socket.onend (node:internal/readline/interface:260:10)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n\n","level":"error","message":"Error occurred","method":"POST","path":"/api/flowchart","stack":"Error: Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_harddisk_delete.mmd\" -o \"/app/output/moirai_topic_harddisk_delete.svg\" --width 2400 --height 1600\n\nError: Failed to launch the browser process!\n[64:64:1210/170118.489508:ERROR:content/browser/zygote_host/zygote_host_impl_linux.cc:101] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.\n\n\nTROUBLESHOOTING: https://pptr.dev/troubleshooting\n\n    at Interface.onClose (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)\n    at Interface.emit (node:events:531:35)\n    at Interface.close (node:internal/readline/interface:530:10)\n    at Socket.onend (node:internal/readline/interface:260:10)\n    at Socket.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n\n\n    at MermaidFlowchartGenerator._generateImage (/app/src/generators/MermaidFlowchartGenerator.js:131:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async MermaidFlowchartGenerator.generateAll (/app/src/generators/MermaidFlowchartGenerator.js:163:23)\n    at async FlowchartService.generateFlowchart (/app/src/services/FlowchartService.js:64:30)\n    at async /app/src/routes/api.js:29:20","timestamp":"2025-12-10 17:01:18"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:17:01:18 +0000] \"POST /api/flowchart HTTP/1.1\" 500 995 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 17:01:18"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:01:42 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:01:42"}
+{"level":"info","message":"Server running in production mode on port 3000","timestamp":"2025-12-10 17:06:09"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 17:06:09"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:06:13 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:06:13"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:06:43 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:06:43"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:07:13 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:07:13"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 17:07:36"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 17:07:36"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 17:07:36"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 17:07:36"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 17:07:36"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:17:07:36 +0000] \"GET /api/exchanges HTTP/1.1\" 304 - \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 17:07:36"}
+{"exchange":"moirai.topic.database.delete","filename":"moirai_topic_database_delete","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 17:07:38"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.database.delete","timestamp":"2025-12-10 17:07:38"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 17:07:38"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 17:07:38"}
+{"level":"info","message":"Searching for exchange: moirai.topic.database.delete","timestamp":"2025-12-10 17:07:38"}
+{"level":"info","message":"Found 3 matches for exchange: moirai.topic.database.delete","timestamp":"2025-12-10 17:07:38"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_database_delete.json","timestamp":"2025-12-10 17:07:38"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_database_delete.mmd","timestamp":"2025-12-10 17:07:38"}
+{"level":"info","message":"SVG generated successfully: /app/output/moirai_topic_database_delete.svg","timestamp":"2025-12-10 17:07:40"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:07:43 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:07:43"}
+{"level":"info","message":"PNG generated successfully: /app/output/moirai_topic_database_delete.png","timestamp":"2025-12-10 17:07:44"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.database.delete","resultsCount":3,"timestamp":"2025-12-10 17:07:44"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:17:07:44 +0000] \"POST /api/flowchart HTTP/1.1\" 200 702 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 17:07:44"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:08:13 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:08:13"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:08:43 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:08:43"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:09:14 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:09:14"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:09:44 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:09:44"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:10:14 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:10:14"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:10:44 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:10:44"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:11:14 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:11:14"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:11:44 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:11:44"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:12:14 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:12:14"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:12:44 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:12:44"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:13:14 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:13:14"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:13:44 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:13:44"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:14:14 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:14:14"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:14:44 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:14:44"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:15:14 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:15:14"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:15:44 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:15:44"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:16:14 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:16:14"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:16:44 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:16:44"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:17:14 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:17:14"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:17:44 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:17:44"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:18:14 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:18:14"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:18:44 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:18:44"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:19:15 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:19:15"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:19:45 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:19:45"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:20:15 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:20:15"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:20:45 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:20:45"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:21:15 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:21:15"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:21:45 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:21:45"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:22:15 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:22:15"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:22:45 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:22:45"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:23:15 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:23:15"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:23:45 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:23:45"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:24:15 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:24:15"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:24:45 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:24:45"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:25:15 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:25:15"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:25:45 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:25:45"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:26:15 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:26:15"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:26:45 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:26:45"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 17:27:07"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 17:27:07"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 17:27:07"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 17:27:07"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 17:27:07"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:17:27:07 +0000] \"GET /api/exchanges HTTP/1.1\" 304 - \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 17:27:07"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:27:15 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:27:15"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:27:45 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:27:45"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:28:15 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:28:15"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:28:45 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:28:45"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:29:15 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:29:15"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:29:45 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:29:45"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:30:15 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:30:15"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:30:46 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:30:46"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:31:16 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:31:16"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:31:46 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:31:46"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:32:16 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:32:16"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:32:46 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:32:46"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:33:16 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:33:16"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:33:46 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:33:46"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:34:16 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:34:16"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:34:46 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:34:46"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:35:16 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:35:16"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:35:46 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:35:46"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:36:16 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:36:16"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:36:46 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:36:46"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:37:16 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:37:16"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:37:46 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:37:46"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:38:16 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:38:16"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:38:46 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:38:46"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:39:16 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:39:16"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:39:46 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:39:46"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:40:16 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:40:16"}
+{"exchange":"moirai.topic.snapshot.create","filename":"moirai_topic_snapshot_create","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 17:40:21"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.snapshot.create","timestamp":"2025-12-10 17:40:21"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 17:40:21"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 17:40:21"}
+{"level":"info","message":"Searching for exchange: moirai.topic.snapshot.create","timestamp":"2025-12-10 17:40:21"}
+{"level":"info","message":"Found 2 matches for exchange: moirai.topic.snapshot.create","timestamp":"2025-12-10 17:40:21"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_snapshot_create.json","timestamp":"2025-12-10 17:40:21"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_snapshot_create.mmd","timestamp":"2025-12-10 17:40:21"}
+{"level":"info","message":"SVG generated successfully: /app/output/moirai_topic_snapshot_create.svg","timestamp":"2025-12-10 17:40:23"}
+{"level":"info","message":"PNG generated successfully: /app/output/moirai_topic_snapshot_create.png","timestamp":"2025-12-10 17:40:26"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.snapshot.create","resultsCount":2,"timestamp":"2025-12-10 17:40:26"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:17:40:26 +0000] \"POST /api/flowchart HTTP/1.1\" 200 565 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 17:40:26"}
+{"exchange":"moirai.topic.vmreplication.create","filename":"moirai_topic_vmreplication_create","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 17:40:34"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.vmreplication.create","timestamp":"2025-12-10 17:40:34"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 17:40:34"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 17:40:34"}
+{"level":"info","message":"Searching for exchange: moirai.topic.vmreplication.create","timestamp":"2025-12-10 17:40:34"}
+{"level":"info","message":"Found 4 matches for exchange: moirai.topic.vmreplication.create","timestamp":"2025-12-10 17:40:34"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_vmreplication_create.json","timestamp":"2025-12-10 17:40:34"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_vmreplication_create.mmd","timestamp":"2025-12-10 17:40:34"}
+{"level":"info","message":"SVG generated successfully: /app/output/moirai_topic_vmreplication_create.svg","timestamp":"2025-12-10 17:40:36"}
+{"level":"info","message":"PNG generated successfully: /app/output/moirai_topic_vmreplication_create.png","timestamp":"2025-12-10 17:40:40"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.vmreplication.create","resultsCount":4,"timestamp":"2025-12-10 17:40:40"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:17:40:40 +0000] \"POST /api/flowchart HTTP/1.1\" 200 965 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 17:40:40"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:40:46 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:40:46"}
+{"exchange":"moirai.topic.loadbalance.create","filename":"moirai_topic_loadbalance_create","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 17:41:08"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.loadbalance.create","timestamp":"2025-12-10 17:41:08"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 17:41:08"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 17:41:08"}
+{"level":"info","message":"Searching for exchange: moirai.topic.loadbalance.create","timestamp":"2025-12-10 17:41:08"}
+{"level":"info","message":"Found 29 matches for exchange: moirai.topic.loadbalance.create","timestamp":"2025-12-10 17:41:08"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_loadbalance_create.json","timestamp":"2025-12-10 17:41:08"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_loadbalance_create.mmd","timestamp":"2025-12-10 17:41:08"}
+{"level":"info","message":"SVG generated successfully: /app/output/moirai_topic_loadbalance_create.svg","timestamp":"2025-12-10 17:41:10"}
+{"level":"info","message":"PNG generated successfully: /app/output/moirai_topic_loadbalance_create.png","timestamp":"2025-12-10 17:41:16"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.loadbalance.create","resultsCount":29,"timestamp":"2025-12-10 17:41:16"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:17:41:16 +0000] \"POST /api/flowchart HTTP/1.1\" 200 8104 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 17:41:16"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:41:17 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:41:17"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:41:47 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:41:47"}
+{"exchange":"moirai.topic.nat.create","filename":"moirai_topic_nat_create","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 17:41:56"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.nat.create","timestamp":"2025-12-10 17:41:56"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 17:41:56"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 17:41:56"}
+{"level":"info","message":"Searching for exchange: moirai.topic.nat.create","timestamp":"2025-12-10 17:41:56"}
+{"level":"info","message":"Found 24 matches for exchange: moirai.topic.nat.create","timestamp":"2025-12-10 17:41:56"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_nat_create.json","timestamp":"2025-12-10 17:41:56"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_nat_create.mmd","timestamp":"2025-12-10 17:41:56"}
+{"level":"info","message":"SVG generated successfully: /app/output/moirai_topic_nat_create.svg","timestamp":"2025-12-10 17:41:59"}
+{"level":"info","message":"PNG generated successfully: /app/output/moirai_topic_nat_create.png","timestamp":"2025-12-10 17:42:06"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.nat.create","resultsCount":24,"timestamp":"2025-12-10 17:42:06"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:17:42:06 +0000] \"POST /api/flowchart HTTP/1.1\" 200 6595 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 17:42:06"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:42:17 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:42:17"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:42:47 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:42:47"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:43:17 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:43:17"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:43:47 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:43:47"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:44:17 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:44:17"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:44:47 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:44:47"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:45:17 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:45:17"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:45:47 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:45:47"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:46:17 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:46:17"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:46:47 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:46:47"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:47:17 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:47:17"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:47:47 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:47:47"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:48:17 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:48:17"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:48:47 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:48:47"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:49:17 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:49:17"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:49:47 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:49:47"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:50:17 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:50:17"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:50:47 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:50:47"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:51:17 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:51:17"}
+{"exchange":"moirai.topic.vpnaddress.delete","filename":"moirai_topic_vpnaddress_delete","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 17:51:45"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.vpnaddress.delete","timestamp":"2025-12-10 17:51:45"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 17:51:45"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 17:51:45"}
+{"level":"info","message":"Searching for exchange: moirai.topic.vpnaddress.delete","timestamp":"2025-12-10 17:51:45"}
+{"level":"info","message":"Found 11 matches for exchange: moirai.topic.vpnaddress.delete","timestamp":"2025-12-10 17:51:45"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_vpnaddress_delete.json","timestamp":"2025-12-10 17:51:45"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_vpnaddress_delete.mmd","timestamp":"2025-12-10 17:51:45"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:51:48 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:51:48"}
+{"level":"info","message":"SVG generated successfully: /app/output/moirai_topic_vpnaddress_delete.svg","timestamp":"2025-12-10 17:51:48"}
+{"level":"info","message":"PNG generated successfully: /app/output/moirai_topic_vpnaddress_delete.png","timestamp":"2025-12-10 17:51:54"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.vpnaddress.delete","resultsCount":11,"timestamp":"2025-12-10 17:51:54"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:17:51:54 +0000] \"POST /api/flowchart HTTP/1.1\" 200 2482 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 17:51:54"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:52:18 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:52:18"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:52:48 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:52:48"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:53:18 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:53:18"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:53:48 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:53:48"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:54:18 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:54:18"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:54:48 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:54:48"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:55:18 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:55:18"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:55:48 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:55:48"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:56:18 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:56:18"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:56:48 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:56:48"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:57:18 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:57:18"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:57:48 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:57:48"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:58:18 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:58:18"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:58:48 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:58:48"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:59:18 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:59:18"}
+{"level":"info","message":"::1 - - [10/Dec/2025:17:59:48 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 17:59:48"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:00:18 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:00:18"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:00:48 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:00:48"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:01:18 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:01:18"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:01:48 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:01:48"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:02:18 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:02:18"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:02:49 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:02:49"}
+{"exchange":"moirai.topic.database.create","filename":"moirai_topic_database_create","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 18:03:14"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.database.create","timestamp":"2025-12-10 18:03:14"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 18:03:14"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 18:03:14"}
+{"level":"info","message":"Searching for exchange: moirai.topic.database.create","timestamp":"2025-12-10 18:03:14"}
+{"level":"info","message":"Found 4 matches for exchange: moirai.topic.database.create","timestamp":"2025-12-10 18:03:14"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_database_create.json","timestamp":"2025-12-10 18:03:14"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_database_create.mmd","timestamp":"2025-12-10 18:03:14"}
+{"level":"info","message":"SVG generated successfully: /app/output/moirai_topic_database_create.svg","timestamp":"2025-12-10 18:03:16"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:03:19 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:03:19"}
+{"level":"info","message":"PNG generated successfully: /app/output/moirai_topic_database_create.png","timestamp":"2025-12-10 18:03:19"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.database.create","resultsCount":4,"timestamp":"2025-12-10 18:03:19"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:18:03:19 +0000] \"POST /api/flowchart HTTP/1.1\" 200 1021 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 18:03:19"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:03:49 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:03:49"}
+{"exchange":"moirai.topic.harddisk.create","filename":"moirai_topic_harddisk_create","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 18:04:02"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.harddisk.create","timestamp":"2025-12-10 18:04:02"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 18:04:02"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 18:04:02"}
+{"level":"info","message":"Searching for exchange: moirai.topic.harddisk.create","timestamp":"2025-12-10 18:04:02"}
+{"level":"info","message":"Found 5 matches for exchange: moirai.topic.harddisk.create","timestamp":"2025-12-10 18:04:02"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_harddisk_create.json","timestamp":"2025-12-10 18:04:02"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_harddisk_create.mmd","timestamp":"2025-12-10 18:04:02"}
+{"level":"info","message":"SVG generated successfully: /app/output/moirai_topic_harddisk_create.svg","timestamp":"2025-12-10 18:04:04"}
+{"level":"info","message":"PNG generated successfully: /app/output/moirai_topic_harddisk_create.png","timestamp":"2025-12-10 18:04:07"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.harddisk.create","resultsCount":5,"timestamp":"2025-12-10 18:04:07"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:18:04:07 +0000] \"POST /api/flowchart HTTP/1.1\" 200 1402 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 18:04:07"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:04:19 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:04:19"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 18:04:35"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 18:04:35"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 18:04:35"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 18:04:36"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 18:04:36"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:18:04:36 +0000] \"GET /api/exchanges HTTP/1.1\" 304 - \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 18:04:36"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:04:49 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:04:49"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:05:19 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:05:19"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:05:49 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:05:49"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:06:19 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:06:19"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:06:49 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:06:49"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:07:19 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:07:19"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:07:49 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:07:49"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:08:19 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:08:19"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:08:49 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:08:49"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:09:19 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:09:19"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:09:49 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:09:49"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:10:19 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:10:19"}
+{"level":"info","message":"Server running in development mode on port 3001","timestamp":"2025-12-10 15:10:42"}
+{"level":"info","message":"API endpoint: http://localhost:3001/api/flowchart","timestamp":"2025-12-10 15:10:42"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:10:49 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:10:49"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 18:11:02"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 18:11:02"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 18:11:02"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 18:11:02"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 18:11:02"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:18:11:02 +0000] \"GET /api/exchanges HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 18:11:02"}
+{"exchange":"moirai.topic.database.clone","filename":"moirai_topic_database_clone","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 18:11:04"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.database.clone","timestamp":"2025-12-10 18:11:04"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 18:11:04"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 18:11:04"}
+{"level":"info","message":"Searching for exchange: moirai.topic.database.clone","timestamp":"2025-12-10 18:11:04"}
+{"level":"info","message":"Found 2 matches for exchange: moirai.topic.database.clone","timestamp":"2025-12-10 18:11:04"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_database_clone.json","timestamp":"2025-12-10 18:11:04"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_database_clone.mmd","timestamp":"2025-12-10 18:11:04"}
+{"level":"info","message":"SVG generated successfully: /app/output/moirai_topic_database_clone.svg","timestamp":"2025-12-10 18:11:06"}
+{"level":"info","message":"PNG generated successfully: /app/output/moirai_topic_database_clone.png","timestamp":"2025-12-10 18:11:08"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.database.clone","resultsCount":2,"timestamp":"2025-12-10 18:11:08"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:18:11:08 +0000] \"POST /api/flowchart HTTP/1.1\" 200 447 \"http://localhost:8080/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 18:11:08"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:11:19 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:11:19"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:11:49 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:11:49"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:12:19 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:12:19"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 15:12:31"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:12:49 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:12:49"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:13:20 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:13:20"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:13:50 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:13:50"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:14:20 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:14:20"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:14:50 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:14:50"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:15:20 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:15:20"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 18:15:36"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 18:15:36"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 18:15:36"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 18:15:36"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 18:15:36"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:18:15:36 +0000] \"GET /api/exchanges HTTP/1.1\" 200 2970 \"-\" \"insomnia/12.1.0\"","timestamp":"2025-12-10 18:15:36"}
+{"body":{"exchange":"moirai.topic.sdnvpn.create","filename":"moirai.topic.sdnvpn.create"},"errors":[{"field":"filename","message":"Filename can only contain letters, numbers, underscores, and hyphens"}],"level":"warn","message":"Validation error","timestamp":"2025-12-10 18:15:39"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:18:15:39 +0000] \"POST /api/flowchart HTTP/1.1\" 400 158 \"-\" \"insomnia/12.1.0\"","timestamp":"2025-12-10 18:15:39"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:15:50 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:15:50"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:16:20 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:16:20"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:16:50 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:16:50"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:17:20 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:17:20"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:17:50 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:17:50"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:18:20 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:18:20"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:18:50 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:18:50"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:19:20 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:19:20"}
+{"level":"info","message":"Server running in development mode on port 3000","timestamp":"2025-12-10 15:19:22"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 15:19:22"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 15:19:30"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 15:19:30"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 15:19:30"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 15:19:30"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 15:19:30"}
+{"exchange":"moirai.topic.harddisk.edit","filename":"moirai_topic_harddisk_edit","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 15:19:32"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.harddisk.edit","timestamp":"2025-12-10 15:19:32"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 15:19:32"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 15:19:32"}
+{"level":"info","message":"Searching for exchange: moirai.topic.harddisk.edit","timestamp":"2025-12-10 15:19:32"}
+{"level":"info","message":"Found 2 matches for exchange: moirai.topic.harddisk.edit","timestamp":"2025-12-10 15:19:32"}
+{"level":"info","message":"Results saved to: output/moirai_topic_harddisk_edit.json","timestamp":"2025-12-10 15:19:32"}
+{"level":"info","message":"Mermaid diagram generated: output/moirai_topic_harddisk_edit.mmd","timestamp":"2025-12-10 15:19:32"}
+{"error":"Command failed: mmdc -i \"output/moirai_topic_harddisk_edit.mmd\" -o \"output/moirai_topic_harddisk_edit.svg\" --puppeteerConfigFile /app/puppeteer-config.json --width 2400 --height 1600\n\nConfiguration file \"/app/puppeteer-config.json\" doesn't exist\n\n","level":"error","message":"Error generating SVG","timestamp":"2025-12-10 15:19:33"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"output/moirai_topic_harddisk_edit.mmd\" -o \"output/moirai_topic_harddisk_edit.svg\" --puppeteerConfigFile /app/puppeteer-config.json --width 2400 --height 1600\n\nConfiguration file \"/app/puppeteer-config.json\" doesn't exist\n\n","level":"error","message":"Error generating all diagram formats","timestamp":"2025-12-10 15:19:33"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"output/moirai_topic_harddisk_edit.mmd\" -o \"output/moirai_topic_harddisk_edit.svg\" --puppeteerConfigFile /app/puppeteer-config.json --width 2400 --height 1600\n\nConfiguration file \"/app/puppeteer-config.json\" doesn't exist\n\n","exchangeName":"moirai.topic.harddisk.edit","level":"error","message":"Error generating flowchart","timestamp":"2025-12-10 15:19:33"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"output/moirai_topic_harddisk_edit.mmd\" -o \"output/moirai_topic_harddisk_edit.svg\" --puppeteerConfigFile /app/puppeteer-config.json --width 2400 --height 1600\n\nConfiguration file \"/app/puppeteer-config.json\" doesn't exist\n\n","level":"error","message":"Error occurred","method":"POST","path":"/api/flowchart","stack":"Error: Failed to generate SVG: Command failed: mmdc -i \"output/moirai_topic_harddisk_edit.mmd\" -o \"output/moirai_topic_harddisk_edit.svg\" --puppeteerConfigFile /app/puppeteer-config.json --width 2400 --height 1600\n\nConfiguration file \"/app/puppeteer-config.json\" doesn't exist\n\n\n    at MermaidFlowchartGenerator._generateImage (/home/cesar/js/etcd/src/generators/MermaidFlowchartGenerator.js:134:13)\n    at async MermaidFlowchartGenerator.generateAll (/home/cesar/js/etcd/src/generators/MermaidFlowchartGenerator.js:166:23)\n    at async FlowchartService.generateFlowchart (/home/cesar/js/etcd/src/services/FlowchartService.js:64:30)\n    at async /home/cesar/js/etcd/src/routes/api.js:29:20","timestamp":"2025-12-10 15:19:33"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 15:19:46"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:19:50 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:19:50"}
+{"level":"info","message":"Server running in development mode on port 3000","timestamp":"2025-12-10 15:19:55"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 15:19:55"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 15:20:07"}
+{"level":"info","message":"Server running in development mode on port 3000","timestamp":"2025-12-10 15:20:08"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 15:20:08"}
+{"exchange":"moirai.topic.database.share","filename":"moirai_topic_database_share","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 15:20:13"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.database.share","timestamp":"2025-12-10 15:20:13"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 15:20:13"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 15:20:13"}
+{"level":"info","message":"Searching for exchange: moirai.topic.database.share","timestamp":"2025-12-10 15:20:13"}
+{"level":"info","message":"Found 2 matches for exchange: moirai.topic.database.share","timestamp":"2025-12-10 15:20:13"}
+{"level":"info","message":"Results saved to: output/moirai_topic_database_share.json","timestamp":"2025-12-10 15:20:13"}
+{"level":"info","message":"Mermaid diagram generated: output/moirai_topic_database_share.mmd","timestamp":"2025-12-10 15:20:13"}
+{"error":"Command failed: mmdc -i \"output/moirai_topic_database_share.mmd\" -o \"output/moirai_topic_database_share.svg\" --puppeteerConfigFile /app/puppeteer-config.json --width 2400 --height 1600\n\nConfiguration file \"/app/puppeteer-config.json\" doesn't exist\n\n","level":"error","message":"Error generating SVG","timestamp":"2025-12-10 15:20:13"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"output/moirai_topic_database_share.mmd\" -o \"output/moirai_topic_database_share.svg\" --puppeteerConfigFile /app/puppeteer-config.json --width 2400 --height 1600\n\nConfiguration file \"/app/puppeteer-config.json\" doesn't exist\n\n","level":"error","message":"Error generating all diagram formats","timestamp":"2025-12-10 15:20:13"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"output/moirai_topic_database_share.mmd\" -o \"output/moirai_topic_database_share.svg\" --puppeteerConfigFile /app/puppeteer-config.json --width 2400 --height 1600\n\nConfiguration file \"/app/puppeteer-config.json\" doesn't exist\n\n","exchangeName":"moirai.topic.database.share","level":"error","message":"Error generating flowchart","timestamp":"2025-12-10 15:20:13"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"output/moirai_topic_database_share.mmd\" -o \"output/moirai_topic_database_share.svg\" --puppeteerConfigFile /app/puppeteer-config.json --width 2400 --height 1600\n\nConfiguration file \"/app/puppeteer-config.json\" doesn't exist\n\n","level":"error","message":"Error occurred","method":"POST","path":"/api/flowchart","stack":"Error: Failed to generate SVG: Command failed: mmdc -i \"output/moirai_topic_database_share.mmd\" -o \"output/moirai_topic_database_share.svg\" --puppeteerConfigFile /app/puppeteer-config.json --width 2400 --height 1600\n\nConfiguration file \"/app/puppeteer-config.json\" doesn't exist\n\n\n    at MermaidFlowchartGenerator._generateImage (/home/cesar/js/etcd/src/generators/MermaidFlowchartGenerator.js:134:13)\n    at async MermaidFlowchartGenerator.generateAll (/home/cesar/js/etcd/src/generators/MermaidFlowchartGenerator.js:166:23)\n    at async FlowchartService.generateFlowchart (/home/cesar/js/etcd/src/services/FlowchartService.js:64:30)\n    at async /home/cesar/js/etcd/src/routes/api.js:29:20","timestamp":"2025-12-10 15:20:13"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:20:20 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:20:20"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:20:50 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:20:50"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:21:20 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:21:20"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 15:21:48"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:21:50 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:21:50"}
+{"level":"info","message":"Server running in production mode on port 3000","timestamp":"2025-12-10 18:22:50"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 18:22:50"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:22:55 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:22:55"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 18:23:06"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 18:23:06"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 18:23:06"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 18:23:06"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 18:23:06"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:18:23:06 +0000] \"GET /api/exchanges HTTP/1.1\" 304 - \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 18:23:06"}
+{"exchange":"moirai.topic.database.create","filename":"moirai_topic_database_create","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 18:23:07"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.database.create","timestamp":"2025-12-10 18:23:07"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 18:23:07"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 18:23:07"}
+{"level":"info","message":"Searching for exchange: moirai.topic.database.create","timestamp":"2025-12-10 18:23:07"}
+{"level":"info","message":"Found 4 matches for exchange: moirai.topic.database.create","timestamp":"2025-12-10 18:23:07"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_database_create.json","timestamp":"2025-12-10 18:23:07"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_database_create.mmd","timestamp":"2025-12-10 18:23:07"}
+{"level":"info","message":"SVG generated successfully: /app/output/moirai_topic_database_create.svg","timestamp":"2025-12-10 18:23:09"}
+{"level":"info","message":"PNG generated successfully: /app/output/moirai_topic_database_create.png","timestamp":"2025-12-10 18:23:12"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.database.create","resultsCount":4,"timestamp":"2025-12-10 18:23:12"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:18:23:12 +0000] \"POST /api/flowchart HTTP/1.1\" 200 1021 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 18:23:12"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:23:25 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:23:25"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:23:55 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:23:55"}
+{"exchange":"moirai.topic.loadbalance.create","filename":"moirai_topic_loadbalance_create","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 18:23:57"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.loadbalance.create","timestamp":"2025-12-10 18:23:57"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 18:23:57"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 18:23:57"}
+{"level":"info","message":"Searching for exchange: moirai.topic.loadbalance.create","timestamp":"2025-12-10 18:23:57"}
+{"level":"info","message":"Found 29 matches for exchange: moirai.topic.loadbalance.create","timestamp":"2025-12-10 18:23:57"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_loadbalance_create.json","timestamp":"2025-12-10 18:23:57"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_loadbalance_create.mmd","timestamp":"2025-12-10 18:23:57"}
+{"level":"info","message":"SVG generated successfully: /app/output/moirai_topic_loadbalance_create.svg","timestamp":"2025-12-10 18:23:59"}
+{"error":"Command failed: mmdc -i \"/app/output/moirai_topic_loadbalance_create.mmd\" -o \"/app/output/moirai_topic_loadbalance_create.png\" --puppeteerConfigFile /app/puppeteer-config.json --scale 10 --width 2400 --height 1600\n\nProtocolError: Protocol error (Page.captureScreenshot): Unable to capture screenshot\n    at <instance_members_initializer> (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:97:14)\n    at new Callback (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:101:16)\n    at CallbackRegistry.create (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:20:26)\n    at Connection._rawSend (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Connection.js:89:26)\n    at CdpCDPSession.send (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/CDPSession.js:65:33)\n    at CdpPage._screenshot (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Page.js:764:62)\n    at CdpPage.screenshot (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/api/Page.js:1062:41)\n    at async CdpPage.<anonymous> (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/util/decorators.js:164:24)\n    at async renderMermaid (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/src/index.js:373:15)\n    at async run (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/src/index.js:552:24)\n\n","level":"error","message":"Error generating PNG","timestamp":"2025-12-10 18:24:04"}
+{"error":"Failed to generate PNG: Command failed: mmdc -i \"/app/output/moirai_topic_loadbalance_create.mmd\" -o \"/app/output/moirai_topic_loadbalance_create.png\" --puppeteerConfigFile /app/puppeteer-config.json --scale 10 --width 2400 --height 1600\n\nProtocolError: Protocol error (Page.captureScreenshot): Unable to capture screenshot\n    at <instance_members_initializer> (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:97:14)\n    at new Callback (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:101:16)\n    at CallbackRegistry.create (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:20:26)\n    at Connection._rawSend (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Connection.js:89:26)\n    at CdpCDPSession.send (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/CDPSession.js:65:33)\n    at CdpPage._screenshot (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Page.js:764:62)\n    at CdpPage.screenshot (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/api/Page.js:1062:41)\n    at async CdpPage.<anonymous> (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/util/decorators.js:164:24)\n    at async renderMermaid (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/src/index.js:373:15)\n    at async run (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/src/index.js:552:24)\n\n","level":"error","message":"Error generating all diagram formats","timestamp":"2025-12-10 18:24:04"}
+{"error":"Failed to generate PNG: Command failed: mmdc -i \"/app/output/moirai_topic_loadbalance_create.mmd\" -o \"/app/output/moirai_topic_loadbalance_create.png\" --puppeteerConfigFile /app/puppeteer-config.json --scale 10 --width 2400 --height 1600\n\nProtocolError: Protocol error (Page.captureScreenshot): Unable to capture screenshot\n    at <instance_members_initializer> (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:97:14)\n    at new Callback (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:101:16)\n    at CallbackRegistry.create (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:20:26)\n    at Connection._rawSend (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Connection.js:89:26)\n    at CdpCDPSession.send (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/CDPSession.js:65:33)\n    at CdpPage._screenshot (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Page.js:764:62)\n    at CdpPage.screenshot (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/api/Page.js:1062:41)\n    at async CdpPage.<anonymous> (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/util/decorators.js:164:24)\n    at async renderMermaid (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/src/index.js:373:15)\n    at async run (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/src/index.js:552:24)\n\n","exchangeName":"moirai.topic.loadbalance.create","level":"error","message":"Error generating flowchart","timestamp":"2025-12-10 18:24:04"}
+{"error":"Failed to generate PNG: Command failed: mmdc -i \"/app/output/moirai_topic_loadbalance_create.mmd\" -o \"/app/output/moirai_topic_loadbalance_create.png\" --puppeteerConfigFile /app/puppeteer-config.json --scale 10 --width 2400 --height 1600\n\nProtocolError: Protocol error (Page.captureScreenshot): Unable to capture screenshot\n    at <instance_members_initializer> (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:97:14)\n    at new Callback (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:101:16)\n    at CallbackRegistry.create (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:20:26)\n    at Connection._rawSend (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Connection.js:89:26)\n    at CdpCDPSession.send (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/CDPSession.js:65:33)\n    at CdpPage._screenshot (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Page.js:764:62)\n    at CdpPage.screenshot (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/api/Page.js:1062:41)\n    at async CdpPage.<anonymous> (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/util/decorators.js:164:24)\n    at async renderMermaid (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/src/index.js:373:15)\n    at async run (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/src/index.js:552:24)\n\n","level":"error","message":"Error occurred","method":"POST","path":"/api/flowchart","stack":"Error: Failed to generate PNG: Command failed: mmdc -i \"/app/output/moirai_topic_loadbalance_create.mmd\" -o \"/app/output/moirai_topic_loadbalance_create.png\" --puppeteerConfigFile /app/puppeteer-config.json --scale 10 --width 2400 --height 1600\n\nProtocolError: Protocol error (Page.captureScreenshot): Unable to capture screenshot\n    at <instance_members_initializer> (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:97:14)\n    at new Callback (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:101:16)\n    at CallbackRegistry.create (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:20:26)\n    at Connection._rawSend (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Connection.js:89:26)\n    at CdpCDPSession.send (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/CDPSession.js:65:33)\n    at CdpPage._screenshot (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Page.js:764:62)\n    at CdpPage.screenshot (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/api/Page.js:1062:41)\n    at async CdpPage.<anonymous> (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/util/decorators.js:164:24)\n    at async renderMermaid (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/src/index.js:373:15)\n    at async run (file:///usr/local/lib/node_modules/@mermaid-js/mermaid-cli/src/index.js:552:24)\n\n\n    at MermaidFlowchartGenerator._generateImage (/app/src/generators/MermaidFlowchartGenerator.js:134:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async MermaidFlowchartGenerator.generateAll (/app/src/generators/MermaidFlowchartGenerator.js:167:23)\n    at async FlowchartService.generateFlowchart (/app/src/services/FlowchartService.js:64:30)\n    at async /app/src/routes/api.js:29:20","timestamp":"2025-12-10 18:24:04"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:18:24:04 +0000] \"POST /api/flowchart HTTP/1.1\" 500 1874 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 18:24:04"}
+{"exchange":"moirai.topic.loadbalance.delete","filename":"moirai_topic_loadbalance_delete","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 18:24:18"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.loadbalance.delete","timestamp":"2025-12-10 18:24:18"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 18:24:18"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 18:24:18"}
+{"level":"info","message":"Searching for exchange: moirai.topic.loadbalance.delete","timestamp":"2025-12-10 18:24:18"}
+{"level":"info","message":"Found 14 matches for exchange: moirai.topic.loadbalance.delete","timestamp":"2025-12-10 18:24:18"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_loadbalance_delete.json","timestamp":"2025-12-10 18:24:18"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_loadbalance_delete.mmd","timestamp":"2025-12-10 18:24:18"}
+{"level":"info","message":"SVG generated successfully: /app/output/moirai_topic_loadbalance_delete.svg","timestamp":"2025-12-10 18:24:20"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:24:25 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:24:25"}
+{"level":"info","message":"PNG generated successfully: /app/output/moirai_topic_loadbalance_delete.png","timestamp":"2025-12-10 18:24:29"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.loadbalance.delete","resultsCount":14,"timestamp":"2025-12-10 18:24:29"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:18:24:29 +0000] \"POST /api/flowchart HTTP/1.1\" 200 3325 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 18:24:29"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:24:55 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:24:55"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:25:25 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:25:25"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:25:55 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:25:55"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:26:25 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:26:25"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:26:55 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:26:55"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:27:25 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:27:25"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:27:55 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:27:55"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:28:25 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:28:25"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:28:55 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:28:55"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:29:25 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:29:25"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:29:56 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:29:56"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:30:26 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:30:26"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:30:56 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:30:56"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:31:26 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:31:26"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:31:56 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:31:56"}
+{"level":"info","message":"Server running in production mode on port 3000","timestamp":"2025-12-10 18:34:07"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 18:34:07"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:34:11 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:34:11"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:34:41 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:34:41"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 18:34:55"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 18:34:55"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 18:34:55"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 18:34:55"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 18:34:55"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:18:34:55 +0000] \"GET /api/exchanges HTTP/1.1\" 304 - \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 18:34:55"}
+{"direction":"LR","exchange":"moirai.topic.database.static.rule","filename":"moirai_topic_database_static_rule","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 18:34:57"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.database.static.rule (direction: LR)","timestamp":"2025-12-10 18:34:58"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 18:34:58"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 18:34:58"}
+{"level":"info","message":"Searching for exchange: moirai.topic.database.static.rule","timestamp":"2025-12-10 18:34:58"}
+{"level":"info","message":"Found 3 matches for exchange: moirai.topic.database.static.rule","timestamp":"2025-12-10 18:34:58"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_database_static_rule.json","timestamp":"2025-12-10 18:34:58"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_database_static_rule.mmd (direction: LR)","timestamp":"2025-12-10 18:34:58"}
+{"level":"info","message":"SVG generated successfully: /app/output/moirai_topic_database_static_rule.svg","timestamp":"2025-12-10 18:35:00"}
+{"level":"info","message":"PNG generated successfully: /app/output/moirai_topic_database_static_rule.png","timestamp":"2025-12-10 18:35:02"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.database.static.rule","resultsCount":3,"timestamp":"2025-12-10 18:35:02"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:18:35:02 +0000] \"POST /api/flowchart HTTP/1.1\" 200 626 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 18:35:02"}
+{"direction":"TD","exchange":"moirai.topic.database.static.rule","filename":"moirai_topic_database_static_rule","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 18:35:04"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.database.static.rule (direction: TD)","timestamp":"2025-12-10 18:35:04"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 18:35:04"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 18:35:04"}
+{"level":"info","message":"Searching for exchange: moirai.topic.database.static.rule","timestamp":"2025-12-10 18:35:04"}
+{"level":"info","message":"Found 3 matches for exchange: moirai.topic.database.static.rule","timestamp":"2025-12-10 18:35:04"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_database_static_rule.json","timestamp":"2025-12-10 18:35:04"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_database_static_rule.mmd (direction: TD)","timestamp":"2025-12-10 18:35:04"}
+{"level":"info","message":"SVG generated successfully: /app/output/moirai_topic_database_static_rule.svg","timestamp":"2025-12-10 18:35:06"}
+{"level":"info","message":"PNG generated successfully: /app/output/moirai_topic_database_static_rule.png","timestamp":"2025-12-10 18:35:09"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.database.static.rule","resultsCount":3,"timestamp":"2025-12-10 18:35:09"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:18:35:09 +0000] \"POST /api/flowchart HTTP/1.1\" 200 626 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 18:35:09"}
+{"level":"info","message":"::1 - - [10/Dec/2025:18:35:11 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 18:35:11"}

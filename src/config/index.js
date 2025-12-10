@@ -17,7 +17,9 @@ const config = {
     file: process.env.LOG_FILE || './logs/app.log',
   },
   mermaid: {
-    scale: parseInt(process.env.MERMAID_SCALE, 10) || 8,
+    scale: parseInt(process.env.MERMAID_SCALE, 10) || 10,
+    width: parseInt(process.env.MERMAID_WIDTH, 10) || 2400,
+    height: parseInt(process.env.MERMAID_HEIGHT, 10) || 1600,
   },
 };
 

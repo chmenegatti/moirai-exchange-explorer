@@ -1,0 +1,30 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+.env
+.DS_Store
+*.md
+!README.md
+
+# Output directories (will be mounted as volumes)
+json/*
+output/*
+logs/*
+
+# Frontend specific
+frontend/node_modules
+frontend/dist
+frontend/.env
+frontend/package-lock.json
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Test files
+*.test.js
+coverage/

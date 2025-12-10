@@ -1,14 +1,16 @@
 <div align="center">
 
-# 🔄 ETCD Flowchart API
+# 🔄 ETCD Flowchart API + Frontend
 
 ### Transforme suas configurações ETCD em diagramas de fluxo interativos
 
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D16.x-brightgreen.svg)](https://nodejs.org/)
+[![React Version](https://img.shields.io/badge/react-18.x-blue.svg)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/typescript-5.x-blue.svg)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/badge/license-ISC-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-**API REST moderna + CLI poderosa** para extração de configurações do ETCD e geração automática de diagramas de fluxo usando Mermaid.js
+**API REST moderna + Frontend React/TypeScript + CLI poderosa** para extração de configurações do ETCD e geração automática de diagramas de fluxo usando Mermaid.js
 
 [🚀 Início Rápido](#-início-rápido) • [📖 Documentação](#-documentação-completa) • [🎯 Exemplos](#-exemplos-de-uso) • [🛠️ Deploy](#-deployment)
 
@@ -30,70 +32,66 @@
 
 ---
 
+## 📸 Screenshots
+
+<div align="center">
+
+### Interface Principal
+![Lista de Exchanges](images/img01.png)
+
+### Busca e Filtros
+![Busca em tempo real](images/img02.png)
+
+### Visualização de Fluxograma
+![Diagrama Mermaid interativo](images/img03.png)
+
+</div>
+
+---
+
 ## ✨ Features
 
-<table>
-<tr>
-<td width="50%">
-
 ### 🎨 Geração de Diagramas
+
 - ✅ Diagramas Mermaid automáticos
 - ✅ Múltiplos formatos: MMD, SVG, PNG
 - ✅ Visualização de fluxos complexos
 - ✅ Customização de estilos
 
-</td>
-<td width="50%">
+### 🌐 Frontend Moderno
+
+- ✅ React 18 + TypeScript
+- ✅ TailwindCSS + Shadcn/ui
+- ✅ Visualização interativa de diagramas
+- ✅ Busca e filtros em tempo real
 
 ### 🚀 API REST Moderna
-- ✅ Endpoint único e simples
-- ✅ Resposta JSON otimizada
+
+- ✅ Endpoints RESTful otimizados
+- ✅ Resposta JSON simplificada
 - ✅ Validação robusta (Joi)
 - ✅ CORS e Helmet configurados
 
-</td>
-</tr>
-<tr>
-<td width="50%">
-
 ### 💾 Gerenciamento ETCD
+
 - ✅ Conexão direta ao ETCD
 - ✅ Extração automática de configs
 - ✅ Filtros inteligentes
 - ✅ Cache em JSON local
 
-</td>
-<td width="50%">
-
 ### 🛡️ Segurança & Performance
+
 - ✅ Sanitização de inputs
 - ✅ Proteção contra injection
 - ✅ Logging estruturado (Winston)
 - ✅ Error handling centralizado
 
-</td>
-</tr>
-<tr>
-<td width="50%">
-
 ### 🖥️ CLI Poderosa
+
 - ✅ Comandos intuitivos
 - ✅ Feedback visual
 - ✅ Múltiplas operações
 - ✅ Integração com scripts
-
-</td>
-<td width="50%">
-
-### ⚙️ DevOps Ready
-- ✅ Docker & docker-compose
-- ✅ PM2 configurado
-- ✅ Environment variables
-- ✅ Health checks
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -102,6 +100,7 @@
 ### 🔍 Problema
 
 Gerenciar configurações distribuídas no ETCD é complexo:
+
 - Difícil visualizar dependências entre serviços
 - Configurações espalhadas em múltiplas chaves
 - Falta de documentação visual dos fluxos
@@ -134,18 +133,67 @@ graph LR
 
 ## 🚀 Início Rápido
 
-### 📦 Instalação (2 minutos)
+### 📦 Pré-requisitos
+
+- Node.js >= 16.x
+- npm >= 8.x
+- ETCD 3.x (rodando localmente ou remoto)
+- Mermaid CLI (instalado automaticamente)
+
+### 🔧 Instalação Completa (Backend + Frontend)
 
 ```bash
 # 1. Clone o repositório
 git clone https://github.com/chmenegatti/flow-cli.git
 cd flow-cli
 
-# 2. Instale as dependências
+# 2. Instale as dependências do BACKEND
 npm install
 
-# 3. Configure o ambiente
+# 3. Configure o ambiente do backend
 cp .env.example .env
+# Edite o .env com suas configurações ETCD
+
+# 4. Instale as dependências do FRONTEND
+cd frontend
+npm install
+
+# 5. Configure o ambiente do frontend
+cp .env.example .env
+
+# 6. Volte para a raiz do projeto
+cd ..
+```
+
+### ▶️ Executando o Projeto
+
+#### Opção 1: Backend + Frontend separados (Desenvolvimento)
+
+```bash
+# Terminal 1 - Backend API (porta 3000)
+npm start
+
+# Terminal 2 - Frontend (porta 8080)
+cd frontend
+npm run dev
+```
+
+Acesse:
+
+- **Frontend**: <http://localhost:8080>
+- **API Backend**: <http://localhost:3000>
+- **API Health Check**: <http://localhost:3000/api/health>
+
+#### Opção 2: Somente Backend (API)
+
+```bash
+# Inicie o servidor
+npm start
+
+# Ou com PM2 (produção)
+npm run prod
+```
+
 ```
 
 ### ⚙️ Configuração Rápida
@@ -170,7 +218,7 @@ LOG_LEVEL=info
 
 ### 🎬 Primeiro Uso
 
-#### Via API:
+#### Via API
 
 ```bash
 # 1. Iniciar o servidor
@@ -182,7 +230,7 @@ curl -X POST http://localhost:3000/api/flowchart \
   -d '{"exchange": "moirai.topic.vpn.delete"}'
 ```
 
-#### Via CLI:
+#### Via CLI
 
 ```bash
 # 1. Extrair dados do ETCD
@@ -205,12 +253,14 @@ npm run cli -- -e moirai.topic.vpn.delete -o meu-diagrama
 | Método | Endpoint | Descrição |
 |--------|----------|-----------|
 | `GET` | `/api/health` | Health check |
+| `GET` | `/api/exchanges` | Lista exchanges disponíveis |
 | `POST` | `/api/flowchart` | Gera flowchart |
 | `GET` | `/` | Info da API |
 
 #### 📤 POST /api/flowchart
 
 **Request:**
+
 ```json
 {
   "exchange": "moirai.topic.vpn.delete",
@@ -219,6 +269,7 @@ npm run cli -- -e moirai.topic.vpn.delete -o meu-diagrama
 ```
 
 **Response (200 OK):**
+
 ```json
 {
   "success": true,
@@ -228,6 +279,7 @@ npm run cli -- -e moirai.topic.vpn.delete -o meu-diagrama
     "resultsCount": 5,
     "results": [
       {
+        "exchange": "moirai.topic.vpn.delete",
         "etcd": "moirai-api-env-prod",
         "this": "v1.1.moirai.vpn.create",
         "next": "v1.2.moirai.vpn.validate",
@@ -239,10 +291,63 @@ npm run cli -- -e moirai.topic.vpn.delete -o meu-diagrama
 ```
 
 **Arquivos Gerados:**
+
 - `output/vpn-flow.json` - Dados filtrados
 - `output/vpn-flow.mmd` - Código Mermaid
 - `output/vpn-flow.svg` - Diagrama vetorial
 - `output/vpn-flow.png` - Diagrama bitmap (alta resolução)
+
+#### 📋 GET /api/exchanges
+
+Lista todas as exchanges distintas que começam com um prefixo específico (padrão: "moirai"), ordenadas alfabeticamente.
+
+**Query Parameters:**
+
+- `prefix` (opcional) - Prefixo para filtrar exchanges. Default: `moirai`
+
+**Request:**
+
+```bash
+GET /api/exchanges
+# ou com prefixo customizado
+GET /api/exchanges?prefix=nemesis
+```
+
+**Response (200 OK):**
+
+```json
+{
+  "success": true,
+  "message": "Exchanges retrieved successfully",
+  "data": {
+    "prefix": "moirai",
+    "count": 12,
+    "exchanges": [
+      "moirai.topic.network.create",
+      "moirai.topic.network.delete",
+      "moirai.topic.sdnvpn.create",
+      "moirai.topic.sdnvpn.delete",
+      "moirai.topic.vm.create",
+      "moirai.topic.vm.delete",
+      "moirai.topic.vpn.create",
+      "moirai.topic.vpn.delete"
+    ]
+  }
+}
+```
+
+**Exemplo com cURL:**
+
+```bash
+# Listar exchanges que começam com 'moirai'
+curl http://localhost:3000/api/exchanges
+
+# Listar exchanges que começam com 'nemesis'
+curl http://localhost:3000/api/exchanges?prefix=nemesis
+
+# Listar todas as exchanges
+curl http://localhost:3000/api/exchanges?prefix=
+```
 
 #### ⚠️ Códigos de Erro
 
@@ -294,7 +399,7 @@ npm run cli -- --help
 
 ```
 flow-cli/
-├── 📁 src/                         # Código fonte
+├── 📁 src/                         # Código fonte do Backend
 │   ├── 📁 clients/                 # Clientes externos
 │   │   └── EtcdClient.js          # Cliente ETCD
 │   ├── 📁 config/                  # Configurações
@@ -315,15 +420,35 @@ flow-cli/
 │   ├── 📁 savers/                  # Salvadores
 │   │   └── JsonSaver.js           # Salva em JSON
 │   ├── 📁 services/                # Serviços
-│   │   └── FlowchartService.js    # Orquestração
+│   │   ├── FlowchartService.js    # Orquestração flowchart
+│   │   └── ExchangeService.js     # Gerenciamento exchanges
 │   ├── 📁 utils/                   # Utilitários
 │   │   └── logger.js              # Logger Winston
 │   └── server.js                   # Servidor Express
+├── 📁 frontend/                    # Aplicação Frontend
+│   ├── 📁 src/
+│   │   ├── 📁 components/          # Componentes React
+│   │   │   ├── FlowchartViewer.tsx
+│   │   │   ├── ExchangeCard.tsx
+│   │   │   ├── Header.tsx
+│   │   │   └── ui/                 # Shadcn/ui components
+│   │   ├── 📁 pages/               # Páginas
+│   │   │   ├── Index.tsx
+│   │   │   └── NotFound.tsx
+│   │   ├── 📁 services/            # Serviços API
+│   │   │   └── api.ts
+│   │   ├── 📁 types/               # TypeScript types
+│   │   │   └── exchange.ts
+│   │   ├── 📁 hooks/               # Custom hooks
+│   │   └── App.tsx
+│   ├── package.json
+│   ├── vite.config.ts
+│   └── tailwind.config.ts
 ├── 📁 json/                        # Dados ETCD (gerados)
 ├── 📁 output/                      # Diagramas (gerados)
 ├── 📁 logs/                        # Logs da aplicação
 ├── flow-cli.js                     # CLI entry point
-├── package.json                    # Dependências
+├── package.json                    # Dependências Backend
 ├── .env.example                    # Exemplo de config
 └── README.md                       # Você está aqui!
 ```
@@ -332,13 +457,20 @@ flow-cli/
 
 ```mermaid
 sequenceDiagram
-    participant Client
-    participant API
-    participant Service
-    participant ETCD
-    participant Generator
+    participant User as 🧑 Usuário
+    participant Frontend as 🌐 React App
+    participant API as 🚀 API Backend
+    participant Service as ⚙️ Service
+    participant ETCD as 💾 ETCD
+    participant Generator as 🎨 Generator
 
-    Client->>API: POST /api/flowchart
+    User->>Frontend: Acessa aplicação
+    Frontend->>API: GET /api/exchanges
+    API-->>Frontend: Lista de exchanges
+    Frontend->>User: Exibe exchanges
+    
+    User->>Frontend: Seleciona exchange
+    Frontend->>API: POST /api/flowchart
     API->>Service: generateFlowchart()
     Service->>ETCD: Extrai configurações
     ETCD-->>Service: JSON data
@@ -346,7 +478,31 @@ sequenceDiagram
     Service->>Generator: Gera diagramas
     Generator-->>Service: Arquivos criados
     Service-->>API: Response data
-    API-->>Client: JSON response
+    API-->>Frontend: JSON response + SVG
+    Frontend->>User: Renderiza diagrama
+```
+
+### 🧩 Arquitetura do Frontend
+
+O frontend é uma Single Page Application (SPA) construída com:
+
+- **React 18**: Framework UI reativo
+- **TypeScript**: Type safety e melhor DX
+- **TailwindCSS**: Utility-first CSS framework
+- **Shadcn/ui**: Componentes acessíveis e estilizados
+- **TanStack Query**: Data fetching e cache
+- **Mermaid**: Renderização de diagramas
+- **Vite**: Build tool ultra-rápido
+
+**Principais Componentes:**
+
+```typescript
+<Index>                      // Página principal
+├── <Header>                // Cabeçalho com stats
+├── <SearchInput>           // Busca de exchanges
+├── <ExchangeCard>          // Card de exchange (grid)
+└── <FlowchartViewer>       // Modal com diagrama
+    └── Mermaid rendering   // Renderização do SVG
 ```
 
 ### 🎯 Design Patterns
@@ -607,6 +763,7 @@ volumes:
 ```
 
 **Uso:**
+
 ```bash
 docker-compose up -d
 ```
@@ -723,9 +880,11 @@ ls -lh output/
 **Causa:** Dados ainda não foram extraídos do ETCD
 
 **Solução:**
+
 ```bash
 npm run cli -- -g
 ```
+
 </details>
 
 <details>
@@ -734,8 +893,10 @@ npm run cli -- -g
 **Causa:** ETCD não está rodando ou host incorreto
 
 **Solução:**
+
 1. Verificar ETCD: `curl http://127.0.0.1:2379/version`
 2. Ajustar `.env`: `ETCD_HOSTS=seu-host:2379`
+
 </details>
 
 <details>
@@ -744,20 +905,24 @@ npm run cli -- -g
 **Causa:** Mermaid CLI não instalado ou Chromium ausente
 
 **Solução:**
+
 ```bash
 npm install
 # Em Alpine Linux: apk add chromium
 ```
+
 </details>
 
 <details>
 <summary><b>⚠️ Port 3000 em uso</b></summary>
 
 **Solução:**
+
 ```env
 # No .env
 PORT=8080
 ```
+
 </details>
 
 ---
@@ -776,7 +941,7 @@ PORT=8080
 
 ## 🤝 Contribuindo
 
-Contribuições são bem-vindas! 
+Contribuições são bem-vindas!
 
 ### 📋 Como contribuir
 
@@ -820,7 +985,7 @@ GitHub: [@chmenegatti](https://github.com/chmenegatti)
 
 <div align="center">
 
-### ⭐ Se este projeto foi útil, considere dar uma estrela!
+### ⭐ Se este projeto foi útil, considere dar uma estrela
 
 **[⬆ Voltar ao topo](#-etcd-flowchart-api)**
 

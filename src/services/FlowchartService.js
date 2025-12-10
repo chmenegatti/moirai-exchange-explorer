@@ -34,11 +34,12 @@ class FlowchartService {
    * Generates flowchart from exchange name
    * @param {string} exchangeName - The exchange name to search for
    * @param {string} filename - Base filename for outputs
+   * @param {string} direction - Flow direction: 'LR' or 'TD'
    * @returns {Promise<Object>} Object containing all generated file paths and data
    */
-  async generateFlowchart(exchangeName, filename = 'flowchart') {
+  async generateFlowchart(exchangeName, filename = 'flowchart', direction = 'LR') {
     try {
-      logger.info(`Starting flowchart generation for exchange: ${exchangeName}`);
+      logger.info(`Starting flowchart generation for exchange: ${exchangeName} (direction: ${direction})`);
 
       // Validate JSON directory
       this.validateJsonDirectory();
@@ -61,13 +62,14 @@ class FlowchartService {
 
       // Generate diagrams
       const generator = new MermaidFlowchartGenerator(results);
-      const generatedFiles = await generator.generateAll(filename);
+      const generatedFiles = await generator.generateAll(filename, direction);
 
       // Return simplified response with essential data
       const response = {
         exchange: exchangeName,
         resultsCount: results.length,
         results: results,
+        direction: direction,
       };
 
       logger.info(`Flowchart generation completed for: ${exchangeName}`, {
