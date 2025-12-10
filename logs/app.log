@@ -301,3 +301,6 @@
 {"level":"info","message":"::1 - - [10/Dec/2025:16:56:32 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:56:32"}
 {"level":"info","message":"::1 - - [10/Dec/2025:16:57:02 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:57:02"}
 {"level":"info","message":"::1 - - [10/Dec/2025:16:57:32 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:57:32"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:58:03 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:58:03"}
+{"level":"info","message":"Server running in production mode on port 3000","timestamp":"2025-12-10 17:00:37"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 17:00:37"}

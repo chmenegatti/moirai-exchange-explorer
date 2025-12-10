@@ -37,8 +37,9 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
 # Copy backend package files
 COPY package*.json ./
 
-# Install backend dependencies
-RUN npm install --production
+# Install backend dependencies (including mermaid-cli globally)
+RUN npm install --production && \
+    npm install -g @mermaid-js/mermaid-cli
 
 # Copy backend source
 COPY . .
