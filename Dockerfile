@@ -1,5 +1,5 @@
 # Multi-stage build for Frontend
-FROM node:18-alpine AS frontend-builder
+FROM node:22-alpine AS frontend-builder
 
 WORKDIR /app/frontend
 
@@ -16,7 +16,7 @@ COPY frontend/ ./
 RUN npm run build
 
 # Main image for Backend + Frontend
-FROM node:18-alpine
+FROM node:22-alpine
 
 WORKDIR /app
 

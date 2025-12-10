@@ -255,3 +255,49 @@
 {"level":"info","message":"SVG generated successfully: output/moirai_topic_virtualmachine_delete.svg","timestamp":"2025-12-10 12:02:37"}
 {"level":"info","message":"PNG generated successfully: output/moirai_topic_virtualmachine_delete.png","timestamp":"2025-12-10 12:02:41"}
 {"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.virtualmachine.delete","resultsCount":8,"timestamp":"2025-12-10 12:02:41"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 13:46:27"}
+{"level":"info","message":"Server running in production mode on port 3000","timestamp":"2025-12-10 16:52:27"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 16:52:27"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:52:32 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:52:32"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:53:02 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:53:02"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 16:53:07"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 16:53:07"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 16:53:07"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 16:53:07"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 16:53:07"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:16:53:07 +0000] \"GET /api/exchanges HTTP/1.1\" 304 - \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 16:53:07"}
+{"exchange":"moirai.topic.nat.delete","filename":"moirai_topic_nat_delete","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.nat.delete","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"Searching for exchange: moirai.topic.nat.delete","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"Found 12 matches for exchange: moirai.topic.nat.delete","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_nat_delete.json","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_nat_delete.mmd","timestamp":"2025-12-10 16:53:27"}
+{"error":"Command failed: mmdc -i \"/app/output/moirai_topic_nat_delete.mmd\" -o \"/app/output/moirai_topic_nat_delete.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","level":"error","message":"Error generating SVG","timestamp":"2025-12-10 16:53:27"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_nat_delete.mmd\" -o \"/app/output/moirai_topic_nat_delete.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","level":"error","message":"Error generating all diagram formats","timestamp":"2025-12-10 16:53:27"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_nat_delete.mmd\" -o \"/app/output/moirai_topic_nat_delete.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","exchangeName":"moirai.topic.nat.delete","level":"error","message":"Error generating flowchart","timestamp":"2025-12-10 16:53:27"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_nat_delete.mmd\" -o \"/app/output/moirai_topic_nat_delete.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","level":"error","message":"Error occurred","method":"POST","path":"/api/flowchart","stack":"Error: Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_nat_delete.mmd\" -o \"/app/output/moirai_topic_nat_delete.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n\n    at MermaidFlowchartGenerator._generateImage (/app/src/generators/MermaidFlowchartGenerator.js:131:13)\n    at async MermaidFlowchartGenerator.generateAll (/app/src/generators/MermaidFlowchartGenerator.js:163:23)\n    at async FlowchartService.generateFlowchart (/app/src/services/FlowchartService.js:64:30)\n    at async /app/src/routes/api.js:29:20","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:16:53:27 +0000] \"POST /api/flowchart HTTP/1.1\" 500 221 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 16:53:27"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:53:32 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:53:32"}
+{"exchange":"moirai.topic.exportfiles.create","filename":"moirai_topic_exportfiles_create","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.exportfiles.create","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"Found 105 files in /app/json","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"Searching for exchange: moirai.topic.exportfiles.create","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"Found 2 matches for exchange: moirai.topic.exportfiles.create","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"Results saved to: /app/output/moirai_topic_exportfiles_create.json","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"Mermaid diagram generated: /app/output/moirai_topic_exportfiles_create.mmd","timestamp":"2025-12-10 16:53:40"}
+{"error":"Command failed: mmdc -i \"/app/output/moirai_topic_exportfiles_create.mmd\" -o \"/app/output/moirai_topic_exportfiles_create.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","level":"error","message":"Error generating SVG","timestamp":"2025-12-10 16:53:40"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_exportfiles_create.mmd\" -o \"/app/output/moirai_topic_exportfiles_create.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","level":"error","message":"Error generating all diagram formats","timestamp":"2025-12-10 16:53:40"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_exportfiles_create.mmd\" -o \"/app/output/moirai_topic_exportfiles_create.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","exchangeName":"moirai.topic.exportfiles.create","level":"error","message":"Error generating flowchart","timestamp":"2025-12-10 16:53:40"}
+{"error":"Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_exportfiles_create.mmd\" -o \"/app/output/moirai_topic_exportfiles_create.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n","level":"error","message":"Error occurred","method":"POST","path":"/api/flowchart","stack":"Error: Failed to generate SVG: Command failed: mmdc -i \"/app/output/moirai_topic_exportfiles_create.mmd\" -o \"/app/output/moirai_topic_exportfiles_create.svg\" --width 2400 --height 1600\n/bin/sh: mmdc: not found\n\n    at MermaidFlowchartGenerator._generateImage (/app/src/generators/MermaidFlowchartGenerator.js:131:13)\n    at async MermaidFlowchartGenerator.generateAll (/app/src/generators/MermaidFlowchartGenerator.js:163:23)\n    at async FlowchartService.generateFlowchart (/app/src/services/FlowchartService.js:64:30)\n    at async /app/src/routes/api.js:29:20","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [10/Dec/2025:16:53:40 +0000] \"POST /api/flowchart HTTP/1.1\" 500 237 \"http://localhost:9200/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2025-12-10 16:53:40"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:54:02 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:54:02"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:54:32 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:54:32"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:55:02 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:55:02"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:55:32 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:55:32"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:56:02 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:56:02"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:56:32 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:56:32"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:57:02 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:57:02"}
+{"level":"info","message":"::1 - - [10/Dec/2025:16:57:32 +0000] \"HEAD /api/health HTTP/1.1\" 200 82 \"-\" \"Wget/1.25.0\"","timestamp":"2025-12-10 16:57:32"}
