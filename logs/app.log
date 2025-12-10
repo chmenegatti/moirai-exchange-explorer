@@ -67,3 +67,39 @@
 {"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 09:06:32"}
 {"level":"info","message":"Server running in development mode on port 3000","timestamp":"2025-12-10 09:06:33"}
 {"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 09:06:33"}
+{"exchange":"moirai.topic.sdnvpn.create","filename":"sdnvpn-flow","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.sdnvpn.create","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"Searching for exchange: moirai.topic.sdnvpn.create","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"Found 16 matches for exchange: moirai.topic.sdnvpn.create","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"Results saved to: output/sdnvpn-flow.json","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"Mermaid diagram generated: output/sdnvpn-flow.mmd","timestamp":"2025-12-10 09:48:24"}
+{"level":"info","message":"SVG generated successfully: output/sdnvpn-flow.svg","timestamp":"2025-12-10 09:48:26"}
+{"level":"info","message":"PNG generated successfully: output/sdnvpn-flow.png","timestamp":"2025-12-10 09:48:28"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.sdnvpn.create","resultsCount":16,"timestamp":"2025-12-10 09:48:28"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 10:52:48"}
+{"level":"info","message":"Server running in development mode on port 3000","timestamp":"2025-12-10 10:52:48"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 10:52:48"}
+{"exchange":"moirai.topic.sdnvpn.create","filename":"sdnvpn-flow","level":"info","message":"API request to generate flowchart","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"Starting flowchart generation for exchange: moirai.topic.sdnvpn.create","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"Found 105 files in ./json","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"Successfully read 105 JSON files","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"Searching for exchange: moirai.topic.sdnvpn.create","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"Found 16 matches for exchange: moirai.topic.sdnvpn.create","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"Results saved to: output/sdnvpn-flow.json","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"Mermaid diagram generated: output/sdnvpn-flow.mmd","timestamp":"2025-12-10 10:52:53"}
+{"level":"info","message":"SVG generated successfully: output/sdnvpn-flow.svg","timestamp":"2025-12-10 10:52:55"}
+{"level":"info","message":"PNG generated successfully: output/sdnvpn-flow.png","timestamp":"2025-12-10 10:52:57"}
+{"files":["json","mmd","svg","png"],"level":"info","message":"Flowchart generation completed for: moirai.topic.sdnvpn.create","resultsCount":16,"timestamp":"2025-12-10 10:52:57"}
+{"level":"warn","message":"Route not found","method":"GET","path":"/api/exchanges","timestamp":"2025-12-10 11:00:37"}
+{"level":"warn","message":"Route not found","method":"GET","path":"/api/exchange","timestamp":"2025-12-10 11:00:41"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-12-10 11:00:44"}
+{"level":"info","message":"Server running in development mode on port 3000","timestamp":"2025-12-10 11:00:46"}
+{"level":"info","message":"API endpoint: http://localhost:3000/api/flowchart","timestamp":"2025-12-10 11:00:46"}
+{"level":"warn","message":"Route not found","method":"GET","path":"/api/exchange","timestamp":"2025-12-10 11:00:47"}
+{"level":"info","message":"API request to get exchanges","prefix":"moirai","timestamp":"2025-12-10 11:00:51"}
+{"level":"info","message":"Getting exchanges with prefix: moirai","timestamp":"2025-12-10 11:00:51"}
+{"level":"info","message":"Extracting all exchanges from JSON files","timestamp":"2025-12-10 11:00:51"}
+{"level":"info","message":"Found 161 distinct exchanges","timestamp":"2025-12-10 11:00:51"}
+{"level":"info","message":"Found 81 exchanges with prefix 'moirai'","timestamp":"2025-12-10 11:00:51"}

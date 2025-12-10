@@ -205,6 +205,7 @@ npm run cli -- -e moirai.topic.vpn.delete -o meu-diagrama
 | Método | Endpoint | Descrição |
 |--------|----------|-----------|
 | `GET` | `/api/health` | Health check |
+| `GET` | `/api/exchanges` | Lista exchanges disponíveis |
 | `POST` | `/api/flowchart` | Gera flowchart |
 | `GET` | `/` | Info da API |
 
@@ -228,6 +229,7 @@ npm run cli -- -e moirai.topic.vpn.delete -o meu-diagrama
     "resultsCount": 5,
     "results": [
       {
+        "exchange": "moirai.topic.vpn.delete",
         "etcd": "moirai-api-env-prod",
         "this": "v1.1.moirai.vpn.create",
         "next": "v1.2.moirai.vpn.validate",
@@ -243,6 +245,54 @@ npm run cli -- -e moirai.topic.vpn.delete -o meu-diagrama
 - `output/vpn-flow.mmd` - Código Mermaid
 - `output/vpn-flow.svg` - Diagrama vetorial
 - `output/vpn-flow.png` - Diagrama bitmap (alta resolução)
+
+#### 📋 GET /api/exchanges
+
+Lista todas as exchanges distintas que começam com um prefixo específico (padrão: "moirai"), ordenadas alfabeticamente.
+
+**Query Parameters:**
+- `prefix` (opcional) - Prefixo para filtrar exchanges. Default: `moirai`
+
+**Request:**
+```bash
+GET /api/exchanges
+# ou com prefixo customizado
+GET /api/exchanges?prefix=nemesis
+```
+
+**Response (200 OK):**
+```json
+{
+  "success": true,
+  "message": "Exchanges retrieved successfully",
+  "data": {
+    "prefix": "moirai",
+    "count": 12,
+    "exchanges": [
+      "moirai.topic.network.create",
+      "moirai.topic.network.delete",
+      "moirai.topic.sdnvpn.create",
+      "moirai.topic.sdnvpn.delete",
+      "moirai.topic.vm.create",
+      "moirai.topic.vm.delete",
+      "moirai.topic.vpn.create",
+      "moirai.topic.vpn.delete"
+    ]
+  }
+}
+```
+
+**Exemplo com cURL:**
+```bash
+# Listar exchanges que começam com 'moirai'
+curl http://localhost:3000/api/exchanges
+
+# Listar exchanges que começam com 'nemesis'
+curl http://localhost:3000/api/exchanges?prefix=nemesis
+
+# Listar todas as exchanges
+curl http://localhost:3000/api/exchanges?prefix=
+```
 
 #### ⚠️ Códigos de Erro
 
