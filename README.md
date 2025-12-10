@@ -34,53 +34,33 @@
 
 ## ✨ Features
 
-<table>
-  <tr>
-    <td width="50%">
+### 🎨 Geração de Diagramas
 
-      ### 🎨 Geração de Diagramas
+- ✅ Diagramas Mermaid automáticos
+- ✅ Múltiplos formatos: MMD, SVG, PNG
+- ✅ Visualização de fluxos complexos
+- ✅ Customização de estilos
 
-      - ✅ Diagramas Mermaid automáticos
-      - ✅ Múltiplos formatos: MMD, SVG, PNG
-      - ✅ Visualização de fluxos complexos
-      - ✅ Customização de estilos
+### 🌐 Frontend Moderno
 
-    </td>
-    <td width="50%">
+- ✅ React 18 + TypeScript
+- ✅ TailwindCSS + Shadcn/ui
+- ✅ Visualização interativa de diagramas
+- ✅ Busca e filtros em tempo real
 
-      ### 🌐 Frontend Moderno
+### 🚀 API REST Moderna
 
-      - ✅ React 18 + TypeScript
-      - ✅ TailwindCSS + Shadcn/ui
-      - ✅ Visualização interativa de diagramas
-      - ✅ Busca e filtros em tempo real
+- ✅ Endpoints RESTful otimizados
+- ✅ Resposta JSON simplificada
+- ✅ Validação robusta (Joi)
+- ✅ CORS e Helmet configurados
 
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
+### 💾 Gerenciamento ETCD
 
-      ### 🚀 API REST Moderna
-
-      - ✅ Endpoints RESTful otimizados
-      - ✅ Resposta JSON simplificada
-      - ✅ Validação robusta (Joi)
-      - ✅ CORS e Helmet configurados
-
-    </td>
-    <td width="50%">
-
-      ### 💾 Gerenciamento ETCD
-
-      - ✅ Conexão direta ao ETCD
-      - ✅ Extração automática de configs
-      - ✅ Filtros inteligentes
-      - ✅ Cache em JSON local
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
+- ✅ Conexão direta ao ETCD
+- ✅ Extração automática de configs
+- ✅ Filtros inteligentes
+- ✅ Cache em JSON local
 
 ### 🛡️ Segurança & Performance
 
@@ -89,19 +69,12 @@
 - ✅ Logging estruturado (Winston)
 - ✅ Error handling centralizado
 
-</td>
-<td width="50%">
-
 ### 🖥️ CLI Poderosa
 
 - ✅ Comandos intuitivos
 - ✅ Feedback visual
 - ✅ Múltiplas operações
 - ✅ Integração com scripts
-
-</td>
-</tr>
-</table>
 
 ---
 

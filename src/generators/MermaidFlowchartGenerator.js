@@ -48,7 +48,7 @@ class MermaidFlowchartGenerator {
   async generate(filename) {
     try {
       const sanitizedFilename = sanitizeFilename(filename);
-      let diagram = 'graph LR\n';
+      let diagram = 'graph TD\n';
       
       // Helper to sanitize node IDs (replace dots and special chars with underscores)
       const sanitizeNodeId = (str) => {
