@@ -35,50 +35,55 @@
 ## ✨ Features
 
 <table>
-<tr>
-<td width="50%">
+  <tr>
+    <td width="50%">
 
-### 🎨 Geração de Diagramas
-- ✅ Diagramas Mermaid automáticos
-- ✅ Múltiplos formatos: MMD, SVG, PNG
-- ✅ Visualização de fluxos complexos
-- ✅ Customização de estilos
+      ### 🎨 Geração de Diagramas
 
-</td>
-<td width="50%">
+      - ✅ Diagramas Mermaid automáticos
+      - ✅ Múltiplos formatos: MMD, SVG, PNG
+      - ✅ Visualização de fluxos complexos
+      - ✅ Customização de estilos
 
-### 🌐 Frontend Moderno
-- ✅ React 18 + TypeScript
-- ✅ TailwindCSS + Shadcn/ui
-- ✅ Visualização interativa de diagramas
-- ✅ Busca e filtros em tempo real
+    </td>
+    <td width="50%">
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+      ### 🌐 Frontend Moderno
 
-### 🚀 API REST Moderna
-- ✅ Endpoints RESTful otimizados
-- ✅ Resposta JSON simplificada
-- ✅ Validação robusta (Joi)
-- ✅ CORS e Helmet configurados
+      - ✅ React 18 + TypeScript
+      - ✅ TailwindCSS + Shadcn/ui
+      - ✅ Visualização interativa de diagramas
+      - ✅ Busca e filtros em tempo real
 
-</td>
-<td width="50%">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
 
-### 💾 Gerenciamento ETCD
-- ✅ Conexão direta ao ETCD
-- ✅ Extração automática de configs
-- ✅ Filtros inteligentes
-- ✅ Cache em JSON local
+      ### 🚀 API REST Moderna
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+      - ✅ Endpoints RESTful otimizados
+      - ✅ Resposta JSON simplificada
+      - ✅ Validação robusta (Joi)
+      - ✅ CORS e Helmet configurados
+
+    </td>
+    <td width="50%">
+
+      ### 💾 Gerenciamento ETCD
+
+      - ✅ Conexão direta ao ETCD
+      - ✅ Extração automática de configs
+      - ✅ Filtros inteligentes
+      - ✅ Cache em JSON local
+
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
 
 ### 🛡️ Segurança & Performance
+
 - ✅ Sanitização de inputs
 - ✅ Proteção contra injection
 - ✅ Logging estruturado (Winston)
@@ -88,6 +93,7 @@
 <td width="50%">
 
 ### 🖥️ CLI Poderosa
+
 - ✅ Comandos intuitivos
 - ✅ Feedback visual
 - ✅ Múltiplas operações
@@ -104,6 +110,7 @@
 ### 🔍 Problema
 
 Gerenciar configurações distribuídas no ETCD é complexo:
+
 - Difícil visualizar dependências entre serviços
 - Configurações espalhadas em múltiplas chaves
 - Falta de documentação visual dos fluxos
@@ -182,9 +189,10 @@ npm run dev
 ```
 
 Acesse:
-- **Frontend**: http://localhost:8080
-- **API Backend**: http://localhost:3000
-- **API Health Check**: http://localhost:3000/api/health
+
+- **Frontend**: <http://localhost:8080>
+- **API Backend**: <http://localhost:3000>
+- **API Health Check**: <http://localhost:3000/api/health>
 
 #### Opção 2: Somente Backend (API)
 
@@ -195,6 +203,7 @@ npm start
 # Ou com PM2 (produção)
 npm run prod
 ```
+
 ```
 
 ### ⚙️ Configuração Rápida
@@ -219,7 +228,7 @@ LOG_LEVEL=info
 
 ### 🎬 Primeiro Uso
 
-#### Via API:
+#### Via API
 
 ```bash
 # 1. Iniciar o servidor
@@ -231,7 +240,7 @@ curl -X POST http://localhost:3000/api/flowchart \
   -d '{"exchange": "moirai.topic.vpn.delete"}'
 ```
 
-#### Via CLI:
+#### Via CLI
 
 ```bash
 # 1. Extrair dados do ETCD
@@ -261,6 +270,7 @@ npm run cli -- -e moirai.topic.vpn.delete -o meu-diagrama
 #### 📤 POST /api/flowchart
 
 **Request:**
+
 ```json
 {
   "exchange": "moirai.topic.vpn.delete",
@@ -269,6 +279,7 @@ npm run cli -- -e moirai.topic.vpn.delete -o meu-diagrama
 ```
 
 **Response (200 OK):**
+
 ```json
 {
   "success": true,
@@ -290,6 +301,7 @@ npm run cli -- -e moirai.topic.vpn.delete -o meu-diagrama
 ```
 
 **Arquivos Gerados:**
+
 - `output/vpn-flow.json` - Dados filtrados
 - `output/vpn-flow.mmd` - Código Mermaid
 - `output/vpn-flow.svg` - Diagrama vetorial
@@ -300,9 +312,11 @@ npm run cli -- -e moirai.topic.vpn.delete -o meu-diagrama
 Lista todas as exchanges distintas que começam com um prefixo específico (padrão: "moirai"), ordenadas alfabeticamente.
 
 **Query Parameters:**
+
 - `prefix` (opcional) - Prefixo para filtrar exchanges. Default: `moirai`
 
 **Request:**
+
 ```bash
 GET /api/exchanges
 # ou com prefixo customizado
@@ -310,6 +324,7 @@ GET /api/exchanges?prefix=nemesis
 ```
 
 **Response (200 OK):**
+
 ```json
 {
   "success": true,
@@ -332,6 +347,7 @@ GET /api/exchanges?prefix=nemesis
 ```
 
 **Exemplo com cURL:**
+
 ```bash
 # Listar exchanges que começam com 'moirai'
 curl http://localhost:3000/api/exchanges
@@ -757,6 +773,7 @@ volumes:
 ```
 
 **Uso:**
+
 ```bash
 docker-compose up -d
 ```
@@ -873,9 +890,11 @@ ls -lh output/
 **Causa:** Dados ainda não foram extraídos do ETCD
 
 **Solução:**
+
 ```bash
 npm run cli -- -g
 ```
+
 </details>
 
 <details>
@@ -884,8 +903,10 @@ npm run cli -- -g
 **Causa:** ETCD não está rodando ou host incorreto
 
 **Solução:**
+
 1. Verificar ETCD: `curl http://127.0.0.1:2379/version`
 2. Ajustar `.env`: `ETCD_HOSTS=seu-host:2379`
+
 </details>
 
 <details>
@@ -894,20 +915,24 @@ npm run cli -- -g
 **Causa:** Mermaid CLI não instalado ou Chromium ausente
 
 **Solução:**
+
 ```bash
 npm install
 # Em Alpine Linux: apk add chromium
 ```
+
 </details>
 
 <details>
 <summary><b>⚠️ Port 3000 em uso</b></summary>
 
 **Solução:**
+
 ```env
 # No .env
 PORT=8080
 ```
+
 </details>
 
 ---
@@ -926,7 +951,7 @@ PORT=8080
 
 ## 🤝 Contribuindo
 
-Contribuições são bem-vindas! 
+Contribuições são bem-vindas!
 
 ### 📋 Como contribuir
 
@@ -970,7 +995,7 @@ GitHub: [@chmenegatti](https://github.com/chmenegatti)
 
 <div align="center">
 
-### ⭐ Se este projeto foi útil, considere dar uma estrela!
+### ⭐ Se este projeto foi útil, considere dar uma estrela
 
 **[⬆ Voltar ao topo](#-etcd-flowchart-api)**
 
