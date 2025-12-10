@@ -1,100 +1,122 @@
+#!/usr/bin/env node
+
 const { Command } = require('commander');
-const path = require('path');
-const Extractor = require('./extractor/app');
-const JsonFileReader = require('./reader/JsonFileReader');
-const ExchangeFinder = require('./finder/ExchangeFinder');
-const MermaidFlowchartGenerator = require('./flowchart/MermaidFlowchartGenerator');
+const config = require('./src/config');
+const logger = require('./src/utils/logger');
+const Extractor = require('./src/extractors/Extractor');
+const FlowchartService = require('./src/services/FlowchartService');
 
 const program = new Command();
 
 program
-  .option('-g', 'Get data from etcd and save as JSON')
+  .name('flow-cli')
+  .description('CLI for ETCD configuration management and flowchart generation')
+  .version('2.0.0');
+
+program
+  .option('-g, --generate', 'Get data from ETCD and save as JSON')
   .option('-e, --exchange <exchange>', 'Exchange name to find')
-  .option('-o, --output <filename>', 'Output filename for results')
-  .option('-p, --png <pngname>', 'Generate PNG with given name')
-  .option('-s, --svg <svgname>', 'Generate SVG with given name')
-  .option('-d, --diagram <jsonfile>', 'Gera imagens do diagrama a partir de um JSON já existente');
+  .option('-o, --output <filename>', 'Output filename for results (default: flowchart)')
+  .option('-d, --diagram <jsonfile>', 'Generate diagrams from existing JSON file in output directory');
 
 program.parse(process.argv);
 
 const options = program.opts();
 
-const jsonDir = './json';
-const outputDir = './output';
-
+/**
+ * Run the ETCD extractor
+ */
 const runExtractor = async () => {
-  const etcdHosts = '127.0.0.1:2379';
-  const outputDir = './json';
-  const extract = new Extractor(etcdHosts, outputDir);
-  await extract.run();
-}
-
-const checkOutputFolder = () => {
-  const fs = require('fs');
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir);
-  }
-}
-
-const checkJsonFolder = () => {
-  const fs = require('fs');
-  if (!fs.existsSync(jsonDir)) {
-    console.error('A pasta json não existe. Por favor, execute com a flag -g primeiro.');
+  try {
+    logger.info('Starting ETCD data extraction');
+    const extractor = new Extractor(config.etcd.hosts, config.directories.json);
+    const count = await extractor.run();
+    logger.info(`Extraction completed. ${count} files saved to ${config.directories.json}`);
+    console.log(`✓ Successfully extracted ${count} files to ${config.directories.json}`);
+  } catch (error) {
+    logger.error('Extraction failed', { error: error.message });
+    console.error(`✗ Extraction failed: ${error.message}`);
     process.exit(1);
   }
+};
 
-  const files = fs.readdirSync(jsonDir);
-  if (files.length === 0) {
-      console.error('A pasta json está vazia. Por favor, execute com a flag -g primeiro.');
-      process.exit(1);
+/**
+ * Generate flowchart from exchange name
+ */
+const generateFlowchart = async (exchangeName, filename) => {
+  try {
+    logger.info('Starting flowchart generation', { exchangeName, filename });
+    const service = new FlowchartService();
+    const result = await service.generateFlowchart(exchangeName, filename);
+    
+    console.log(`\n✓ Flowchart generated successfully!`);
+    console.log(`  Exchange: ${result.exchange}`);
+    console.log(`  Results found: ${result.resultsCount}`);
+    console.log(`\nGenerated files:`);
+    console.log(`  JSON: ${result.files.json}`);
+    console.log(`  Mermaid: ${result.files.mmd}`);
+    console.log(`  SVG: ${result.files.svg}`);
+    console.log(`  PNG: ${result.files.png}`);
+  } catch (error) {
+    logger.error('Flowchart generation failed', { error: error.message });
+    console.error(`✗ Flowchart generation failed: ${error.message}`);
+    process.exit(1);
   }
-}
+};
 
-const runMain = async () => {
-  if (options.g) {
-    await runExtractor();
-  } else {
-    checkJsonFolder();
+/**
+ * Generate diagrams from existing JSON
+ */
+const generateFromExisting = async (jsonFilename) => {
+  try {
+    logger.info('Generating diagrams from existing JSON', { jsonFilename });
+    const service = new FlowchartService();
+    const result = await service.generateFromExistingJson(jsonFilename);
+    
+    console.log(`\n✓ Diagrams generated successfully!`);
+    console.log(`  Source: ${result.source}`);
+    console.log(`  Results: ${result.resultsCount}`);
+    console.log(`\nGenerated files:`);
+    console.log(`  Mermaid: ${result.files.mmd}`);
+    console.log(`  SVG: ${result.files.svg}`);
+    console.log(`  PNG: ${result.files.png}`);
+  } catch (error) {
+    logger.error('Diagram generation failed', { error: error.message });
+    console.error(`✗ Diagram generation failed: ${error.message}`);
+    process.exit(1);
   }
+};
 
-  checkOutputFolder();
-
-  if (options.exchange && options.output) {
-    // ...existing code...
-    const reader = new JsonFileReader(jsonDir);
-    const jsonData = await reader.readFiles();
-    const finder = new ExchangeFinder(jsonData, options.output);
-    const results = await finder.find(options.exchange);
-    const generator = new MermaidFlowchartGenerator(results);
-    await generator.generate(options.output);
-    if (options.png) {
-      const pngFilename = path.join(outputDir, `${options.png}`);
-      await generator.generatePNG(options.output, pngFilename);
+/**
+ * Main execution
+ */
+const main = async () => {
+  try {
+    // Extract data from ETCD
+    if (options.generate) {
+      await runExtractor();
     }
-    if (options.svg) {
-      const svgFilename = path.join(outputDir,`${options.svg}`);
-      await generator.generateSVG(options.output, svgFilename);
-    }
-  }
 
-  // Nova flag para gerar imagens a partir de um JSON já existente
-  if (options.diagram) {
-    const fs = require('fs');
-    const jsonPath = path.join(outputDir, options.diagram);
-    if (!fs.existsSync(jsonPath)) {
-      console.error(`Arquivo JSON não encontrado: ${jsonPath}`);
-      process.exit(1);
+    // Generate flowchart from exchange
+    if (options.exchange) {
+      const filename = options.output || 'flowchart';
+      await generateFlowchart(options.exchange, filename);
     }
-    const content = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
-    const generator = new MermaidFlowchartGenerator(content);
-    // Nome base sem extensão
-    const baseName = path.parse(options.diagram).name;
-    await generator.generate(baseName);
-    await generator.generateSVG(baseName, path.join(outputDir, baseName));
-    await generator.generatePNG(baseName, path.join(outputDir, baseName));
-    console.log(`Imagens geradas para ${baseName} em output/`);
+
+    // Generate diagrams from existing JSON
+    if (options.diagram) {
+      await generateFromExisting(options.diagram);
+    }
+
+    // Show help if no options provided
+    if (!options.generate && !options.exchange && !options.diagram) {
+      program.help();
+    }
+  } catch (error) {
+    logger.error('CLI execution failed', { error: error.message });
+    console.error(`✗ Error: ${error.message}`);
+    process.exit(1);
   }
-}
-runMain().catch(error => {
-  console.error(`Erro ao executar a aplicação: ${error.message}`);
-});
+};
+
+main();
