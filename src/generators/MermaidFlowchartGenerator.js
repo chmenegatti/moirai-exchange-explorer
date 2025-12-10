@@ -50,12 +50,22 @@ class MermaidFlowchartGenerator {
       const sanitizedFilename = sanitizeFilename(filename);
       let diagram = 'graph LR\n';
       
-      this.data.forEach(item => {
+      // Helper to sanitize node IDs (replace dots and special chars with underscores)
+      const sanitizeNodeId = (str) => {
+        if (!str) return '';
+        return str.replace(/[^a-zA-Z0-9_]/g, '_');
+      };
+      
+      this.data.forEach((item, index) => {
         if (item.this && item.next) {
-          diagram += `  ${item.this} -->|next| ${item.next}\n`;
+          const thisId = sanitizeNodeId(item.this);
+          const nextId = sanitizeNodeId(item.next);
+          diagram += `  ${thisId}["${item.this}"] -->|next| ${nextId}["${item.next}"]\n`;
         }
         if (item.this && item.error) {
-          diagram += `  ${item.this} -->|error| ${item.error}\n`;
+          const thisId = sanitizeNodeId(item.this);
+          const errorId = sanitizeNodeId(item.error);
+          diagram += `  ${thisId}["${item.this}"] -->|error| ${errorId}["${item.error}"]\n`;
         }
       });
 
@@ -90,8 +100,22 @@ class MermaidFlowchartGenerator {
         throw new Error(`Source file not found: ${sourcePath}`);
       }
 
-      const scaleOption = format === 'png' ? `--scale ${config.mermaid.scale}` : '';
-      const command = `mmdc -i "${sourcePath}" -o "${outputPath}" ${scaleOption}`.trim();
+      // Build command with quality options
+      const options = [];
+      
+      if (format === 'png') {
+        options.push(`--scale ${config.mermaid.scale}`);
+      }
+      
+      if (config.mermaid.width) {
+        options.push(`--width ${config.mermaid.width}`);
+      }
+      
+      if (config.mermaid.height) {
+        options.push(`--height ${config.mermaid.height}`);
+      }
+
+      const command = `mmdc -i "${sourcePath}" -o "${outputPath}" ${options.join(' ')}`.trim();
 
       logger.debug(`Executing command: ${command}`);
       const { stdout, stderr } = await execPromise(command);

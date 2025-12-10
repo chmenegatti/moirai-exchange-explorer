@@ -6,6 +6,9 @@
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "cli": "node flow-cli.js",
+    "frontend": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:install": "cd frontend && npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["etcd", "flowchart", "mermaid", "api"],

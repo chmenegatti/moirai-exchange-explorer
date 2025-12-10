@@ -5,3 +5,10 @@ dist/
 package-lock.json
 output/
 json/
+logs/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/package-lock.json

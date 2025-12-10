@@ -1,5 +1,8 @@
 const express = require('express');
+const fs = require('fs');
+const path = require('path');
 const logger = require('../utils/logger');
+const config = require('../config');
 const FlowchartService = require('../services/FlowchartService');
 const ExchangeService = require('../services/ExchangeService');
 const { validate, flowchartSchema } = require('../middlewares/validation');
@@ -13,16 +16,41 @@ const exchangeService = new ExchangeService();
  * @desc    Generate flowchart diagrams from exchange name
  * @access  Public
  * @body    { exchange: string, filename?: string }
- * @returns { success: boolean, data: object }
+ * @returns { success: boolean, data: object } or Mermaid/SVG content based on Accept header
  */
 router.post('/flowchart', validate(flowchartSchema), async (req, res, next) => {
   try {
     const { exchange, filename } = req.validatedBody;
+    const acceptHeader = req.headers.accept || '';
+    const sanitizedFilename = (filename || 'flowchart').replace(/[^a-zA-Z0-9_-]/g, '_');
 
     logger.info(`API request to generate flowchart`, { exchange, filename });
 
     const result = await flowchartService.generateFlowchart(exchange, filename);
 
+    // If client accepts text/vnd.mermaid, return the Mermaid code
+    if (acceptHeader.includes('text/vnd.mermaid') || acceptHeader.includes('text/plain')) {
+      const mmdPath = path.join(config.directories.output, `${sanitizedFilename}.mmd`);
+
+      if (fs.existsSync(mmdPath)) {
+        const mmdContent = fs.readFileSync(mmdPath, 'utf-8');
+        res.setHeader('Content-Type', 'text/plain');
+        return res.send(mmdContent);
+      }
+    }
+
+    // If client accepts SVG, return the SVG file content
+    if (acceptHeader.includes('image/svg+xml')) {
+      const svgPath = path.join(config.directories.output, `${sanitizedFilename}.svg`);
+
+      if (fs.existsSync(svgPath)) {
+        const svgContent = fs.readFileSync(svgPath, 'utf-8');
+        res.setHeader('Content-Type', 'image/svg+xml');
+        return res.send(svgContent);
+      }
+    }
+
+    // Otherwise return JSON response with data
     res.json({
       success: true,
       message: 'Flowchart generated successfully',
