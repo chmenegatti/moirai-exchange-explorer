@@ -103,6 +103,9 @@ class MermaidFlowchartGenerator {
       // Build command with quality options
       const options = [];
       
+      // Add Puppeteer args for running as root in container
+      options.push('--puppeteerConfigFile /app/puppeteer-config.json');
+      
       if (format === 'png') {
         options.push(`--scale ${config.mermaid.scale}`);
       }

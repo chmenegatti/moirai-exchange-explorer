@@ -32,7 +32,8 @@ RUN apk add --no-cache \
 
 # Set environment variable for Puppeteer
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
-    PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser
+    PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser \
+    PUPPETEER_ARGS="--no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage"
 
 # Copy backend package files
 COPY package*.json ./
@@ -43,6 +44,9 @@ RUN npm install --production && \
 
 # Copy backend source
 COPY . .
+
+# Copy Puppeteer config for mermaid-cli
+COPY puppeteer-config.json /app/puppeteer-config.json
 
 # Copy built frontend from builder stage
 COPY --from=frontend-builder /app/frontend/dist ./frontend/dist
