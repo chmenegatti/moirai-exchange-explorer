@@ -51,8 +51,9 @@ COPY puppeteer-config.json /app/puppeteer-config.json
 # Copy built frontend from builder stage
 COPY --from=frontend-builder /app/frontend/dist ./frontend/dist
 
-# Create necessary directories
-RUN mkdir -p ./json ./output ./logs
+# Create necessary directories with proper permissions
+RUN mkdir -p ./json ./output ./logs && \
+    chmod -R 777 ./json ./output ./logs
 
 # Expose ports
 EXPOSE 3000 9200

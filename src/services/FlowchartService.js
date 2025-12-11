@@ -74,7 +74,7 @@ class FlowchartService {
 
       logger.info(`Flowchart generation completed for: ${exchangeName}`, {
         resultsCount: results.length,
-        files: ['json', 'mmd', 'svg', 'png'],
+        files: ['json', 'mmd', 'svg'],
       });
 
       return response;

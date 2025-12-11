@@ -20,13 +20,14 @@ services:
       - LOG_FILE=/app/logs/app.log
       
       # Mermaid Configuration
-      - MERMAID_SCALE=10
-      - MERMAID_WIDTH=2400
-      - MERMAID_HEIGHT=1600
+      - MERMAID_SCALE=3
+      - MERMAID_WIDTH=1920
+      - MERMAID_HEIGHT=1080
     volumes:
       - ./json:/app/json
       - ./output:/app/output
       - ./logs:/app/logs
+    shm_size: '2gb'
     networks:
       nemesis-starter_nemesis:
         ipv4_address: 172.20.0.201
