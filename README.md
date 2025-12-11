@@ -111,7 +111,7 @@ Gerenciar configurações distribuídas no ETCD é complexo:
 Este projeto oferece:
 
 ```mermaid
-graph LR
+flowchart LR
     A[ETCD] -->|Extrai| B[JSON Files]
     B -->|Filtra| C[Exchange Finder]
     C -->|Gera| D[Mermaid Diagram]
