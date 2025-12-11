@@ -148,17 +148,7 @@ class MermaidFlowchartGenerator {
   }
 
   /**
-   * Generates PNG diagram
-   * @param {string} source - Source .mmd filename (without extension)
-   * @param {string} filename - Output filename (without extension)
-   * @returns {Promise<string>} Path to the generated PNG file
-   */
-  async generatePNG(source, filename) {
-    return this._generateImage(source, filename, 'png');
-  }
-
-  /**
-   * Generates all diagram formats (mmd, svg, png)
+   * Generates all diagram formats (mmd, svg)
    * @param {string} filename - Base filename for all outputs
    * @param {string} direction - Flow direction: 'LR' or 'TD'
    * @returns {Promise<Object>} Object containing paths to all generated files
@@ -167,12 +157,10 @@ class MermaidFlowchartGenerator {
     try {
       const mmdPath = await this.generate(filename, direction);
       const svgPath = await this.generateSVG(filename, filename);
-      const pngPath = await this.generatePNG(filename, filename);
 
       return {
         mmd: mmdPath,
         svg: svgPath,
-        png: pngPath,
       };
     } catch (error) {
       logger.error('Error generating all diagram formats', { error: error.message });
